@@ -51,9 +51,9 @@ def load_csv(filename, table_name):
                 connection.close()
                 
 def main():
-    load_csv("final/data/Police_Arrests.csv", "Arrests")
-    load_csv("final/data/Police_Incidents.csv", "Incidents")
-    load_csv("final/data/Traffic_Stops.csv", "Stops")
+    load_csv("data/Arrests.csv", "Arrests")
+    load_csv("data/Incidents.csv", "Incidents")
+    load_csv("data/Traffic Stops.csv", "Stops")
     
 if __name__ == "__main__":
     main()

@@ -13,26 +13,28 @@ def create_app():
     db.init_app(app)
     
 
-    from .views import home_bp
-    from .auth import auth_bp
-    from .views import suggest_password_bp
-    from .views import form_bp
+    # from .views import home_bp, auth_bp, form_bp, suggest_password_bp
+    from .views import views    
+    from .auth import auth 
 
-    app.register_blueprint(home_bp, url_prefix='/')
-    app.register_blueprint(auth_bp, url_prefix='/')
-    app.register_blueprint(suggest_password_bp, url_prefix='/')
-    app.register_blueprint(form_bp, url_prefix='/')
+    app.register_blueprint(views, url_prefix='/')
+    app.register_blueprint(auth, url_prefix='/')
+    # app.register_blueprint(auth_bp, url_prefix='/')
+    # app.register_blueprint(suggest_password_bp, url_prefix='/')
+    # app.register_blueprint(form_bp, url_prefix='/')
     
-    from .auth import User
+    from .models import User, Incident, Arrest
 
     # get the user's session in the db
     login_manager = LoginManager()
     login_manager.login_view = 'auth.login'
     login_manager.init_app(app)
+    
+    if not path.exists("instance/credentials.db"):
+        db.create_all(app=app)
 
     @login_manager.user_loader
     def load_user(user_id):
         return User.query.get(int(user_id))
 
     return app
-

@@ -1,6 +1,7 @@
 from flask import Blueprint, render_template, request, flash, redirect, url_for
 from werkzeug.security import generate_password_hash, check_password_hash
 from . import db
+from .models import User
 from flask_login import login_user, login_required, logout_user, current_user, UserMixin
 from base64 import b64encode
 import os
@@ -26,19 +27,9 @@ CHARACTERS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
 SPECIAL_CHARS = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
 NUMBERS = "1234567890"
 
-auth_bp = Blueprint('auth', __name__)
-
+auth = Blueprint("auth", __name__)
 
 # UserMixin is required for Flask-Login
-class User(db.Model, UserMixin):
-    id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(100), unique=True)
-    password = db.Column(db.String(150))
-    salt = db.Column(db.String(150))
-    access = db.Column(db.String(5))
-    attempts = db.Column(db.Integer)
-
-
 def get_strong_password(CHARACTERS, length):
     no_special_chars = True
     password = ""
@@ -51,7 +42,7 @@ def get_strong_password(CHARACTERS, length):
     return password
 
 
-@auth_bp.route('/auth', methods=['GET', 'POST'])
+@auth.route('/auth', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
         
@@ -144,7 +135,8 @@ def login():
     return render_template("auth.html", user=current_user)
 
 
-@auth_bp.route('/logout')
+
+@auth.route('/logout')
 @login_required
 def logout():
     logout_user()

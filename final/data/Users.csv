@@ -1,0 +1,2 @@
+id,email,password,salt,access,attempts
+1,cael@gmail.com,sha1$BD9YkSQInMN2idE$73fa75b936ec3e618458936ae8e021f3fd5e930a,rWirEqSZ7kyMvZJWvPSiTApv6e|B9MOsX2iexZw/hkQ=,admin,3

@@ -1,9 +1,15 @@
 {% extends "base.html" %}
 {% block title %}Home{% endblock %}
 {% block content %}
-    <div class="container pt-md-5">
-        
-    </div>
+<div class="container pt-md-5">
+    <p class="lead">Insert Police Incident</p>
 
-
+    <form method="POST">
+        <div>
+        <label>Enter some x values (comma separated): <input type="int" name="form_int_x"></label>
+        <label>Enter some x values (comma separated): <input type="int" name="form_int_y"></label>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</div>
 {% endblock %}

@@ -1,0 +1,892 @@
+objectid,incident_number,arrest_date,gender,race,age,charge,most_serious,felony,violent,category
+21433,21BU005370,2021/05/17 12:43:00+00,Male - M,Black or African American - B,43.0,Unlawful Restraint - 2nd Degree 13 VSA 2406 100,0.0,1,1,Assault
+21436,21BU005370,2021/05/17 12:45:00+00,Male - M,Black or African American - B,39.0,Unlawful Restraint - 2nd Degree 13 VSA 2406 100,0.0,1,1,Assault
+21553,21BU009296,2021/06/23 09:23:00+00,Male - M,Black or African American - B,36.0,Unlawful Restraint - 2nd Degree 13 VSA 2406 100,1.0,1,1,Assault
+21646,21BU010742,2021/07/14 04:15:00+00,Male - M,Black or African American - B,26.0,Unlawful Restraint - 2nd Degree 13 VSA 2406 100,0.0,1,1,Assault
+21180,21BU002189,2021/02/22 08:02:00+00,Male - M,White - W,33.0,Unlawful Restraint - 1st Degree 13 VSA 2407 100,0.0,1,1,Assault
+21599,21BU010066,2021/07/04 06:38:00+00,Male - M,White - W,48.0,Unlawful Restraint - 1st Degree 13 VSA 2407 100,1.0,1,1,Assault
+22307,21BU021283,2021/12/26 21:52:00+00,Male - M,Black or African American - B,42.0,Unlawful Restraint - 1st Degree 13 VSA 2407 100,0.0,1,1,Assault
+21613,21BU010211,2021/07/07 09:58:00+00,Female - F,White - W,27.0,Stalking 13 VSA 1062 13c,1.0,0,1,Assault
+22286,21BU020520,2021/12/21 11:40:00+00,Transgender - T,Unknown - U,54.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21064,21BU000207,2021/01/06 05:39:47+00,Male - M,Black or African American - B,35.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21079,21BU000389,2021/01/10 17:44:00+00,Male - M,Black or African American - B,19.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+21109,21BU000589,2021/01/22 00:00:00+00,Male - M,White - W,37.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+21149,21BU001701,2021/02/10 16:30:00+00,Male - M,White - W,32.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21188,21BU002287,2021/02/24 03:40:00+00,Male - M,Black or African American - B,43.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21274,21BU003379,2021/03/23 15:10:48+00,Male - M,Black or African American - B,27.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21281,21BU003657,2021/03/25 17:19:00+00,Male - M,White - W,36.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21301,21BU004034,2021/03/31 03:53:42+00,Male - M,Black or African American - B,21.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+21312,21BU004311,2021/04/06 04:26:00+00,Male - M,White - W,25.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21334,21BU004779,2021/04/13 07:00:00+00,Male - M,White - W,54.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21348,21BU004983,2021/04/16 14:42:30+00,Male - M,White - W,17.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21381,21BU005653,2021/04/29 12:50:00+00,Male - M,White - W,40.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21444,21BU006830,2021/05/18 20:00:00+00,Male - M,White - W,51.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21482,21BU007597,2021/05/29 12:11:00+00,Male - M,White - W,36.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21494,21BU007431,2021/06/02 11:54:00+00,Male - M,White - W,55.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21509,21BU008341,2021/06/09 12:30:00+00,Male - M,White - W,38.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21520,21BU008706,2021/06/14 05:38:00+00,Male - M,White - W,41.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21523,21BU008370,2021/06/15 15:02:00+00,Male - M,Black or African American - B,20.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21537,21BU009049,2021/06/19 20:45:00+00,Male - M,White - W,29.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21543,21BU009006,2021/06/21 23:18:00+00,Male - M,Black or African American - B,25.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21551,21BU009296,2021/06/23 09:23:00+00,Male - M,Black or African American - B,36.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+21565,21BU009143,2021/06/25 21:25:00+00,Male - M,Black or African American - B,31.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+21568,21BU009578,2021/06/27 17:50:00+00,Male - M,White - W,62.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21578,21BU009286,2021/06/29 09:30:00+00,Male - M,Black or African American - B,39.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+21604,21BU009779,2021/07/04 12:00:00+00,Male - M,Black or African American - B,26.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21642,21BU010518,2021/07/13 19:40:00+00,Male - M,White - W,33.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21645,21BU010742,2021/07/14 04:15:00+00,Male - M,Black or African American - B,26.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+21669,21BU011043,2021/07/18 15:19:00+00,Male - M,White - W,46.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21692,21BU010397,2021/07/22 14:20:00+00,Male - M,Black or African American - B,28.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21712,21BU009146,2021/07/27 10:13:00+00,Male - M,Black or African American - B,42.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21773,21BU012672,2021/08/10 21:55:00+00,Male - M,Black or African American - B,35.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21848,21BU009344,2021/09/02 13:10:00+00,Male - M,White - W,57.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21854,21BU014180,2021/09/02 20:15:00+00,Male - M,White - W,33.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21863,21BU014382,2021/09/04 01:45:00+00,Male - M,Black or African American - B,19.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21903,21BU014967,2021/09/11 20:34:26+00,Male - M,Black or African American - B,45.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21928,21BU015481,2021/09/18 03:00:00+00,Male - M,White - W,63.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21929,21BU015494,2021/09/18 07:00:00+00,Male - M,White - W,63.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21986,21BU015010,2021/09/29 08:00:00+00,Male - M,Black or African American - B,20.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21999,21BU016537,2021/10/02 19:49:00+00,Male - M,Black or African American - B,17.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22034,21BU016915,2021/10/08 16:30:00+00,Male - M,White - W,32.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22053,21BU017265,2021/10/13 20:20:00+00,Male - M,White - W,30.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22125,21BU018332,2021/10/31 09:57:00+00,Male - M,White - W,37.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22137,21BU018452,2021/11/02 14:10:09+00,Male - M,White - W,16.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+22173,21BU019159,2021/11/13 03:00:00+00,Male - M,White - W,37.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22206,21BU016196,2021/11/21 20:00:00+00,Male - M,White - W,55.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22207,21BU016196,2021/11/21 20:51:00+00,Male - M,White - W,60.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22244,21BU019906,2021/12/03 20:05:00+00,Male - M,White - W,13.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22279,21BU020906,2021/12/17 19:55:00+00,Male - M,Asian - A,33.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+22283,21BU020924,2021/12/18 01:19:00+00,Male - M,Black or African American - B,36.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22285,21BU020593,2021/12/18 18:10:09+00,Male - M,Asian - A,31.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22299,21BU021157,2021/12/23 08:00:00+00,Male - M,White - W,19.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22301,21BU021181,2021/12/23 15:15:00+00,Male - M,Black or African American - B,26.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22320,21BU021416,2021/12/29 02:00:00+00,Male - M,White - W,40.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22329,21BU019572,2021/12/30 14:00:00+00,Male - M,White - W,27.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22334,21BU020141,2021/12/30 22:00:00+00,Male - M,White - W,24.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21241,21BU003083,2021/03/12 11:30:00+00,Female - F,White - W,34.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21256,20BU019301,2021/03/18 01:47:01+00,Female - F,Black or African American - B,19.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21257,20BU019301,2021/03/18 01:47:01+00,Female - F,Black or African American - B,20.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21255,20BU019301,2021/03/18 01:47:01+00,Female - F,Black or African American - B,22.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21254,20BU019301,2021/03/18 01:47:01+00,Female - F,White - W,22.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21393,21BU005815,2021/05/02 10:40:00+00,Female - F,White - W,44.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21416,21BU006238,2021/05/10 07:57:24+00,Female - F,Black or African American - B,45.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21424,20BU023057,2021/05/14 16:20:00+00,Female - F,White - W,24.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21507,21BU008251,2021/06/08 15:57:00+00,Female - F,Black or African American - B,32.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+21518,21BU008685,2021/06/13 21:34:00+00,Female - F,Black or African American - B,23.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21541,21BU009119,2021/06/20 23:23:00+00,Female - F,White - W,27.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+21648,21BU008992,2021/07/14 21:38:00+00,Female - F,White - W,21.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21665,21BU011024,2021/07/18 01:12:00+00,Female - F,White - W,21.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21736,21BU011936,2021/07/31 15:37:00+00,Female - F,White - W,51.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21952,21BU015009,2021/09/20 16:46:00+00,Female - F,White - W,37.0,Simple Assault 13 VSA 1023 13b,0.0,0,1,Assault
+21977,21BU016104,2021/09/26 18:35:00+00,Female - F,White - W,18.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22025,21BU016733,2021/10/06 00:02:00+00,Female - F,White - W,44.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22052,21BU017250,2021/10/13 14:30:00+00,Female - F,White - W,33.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22107,21BU018187,2021/10/27 22:15:00+00,Female - F,White - W,24.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22228,21BU018451,2021/11/29 17:20:00+00,Female - F,White - W,33.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22233,21BU019594,2021/12/01 12:00:00+00,Female - F,Black or African American - B,12.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22234,21BU019594,2021/12/01 15:00:00+00,Female - F,White - W,12.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22242,21BU020095,2021/12/03 11:50:00+00,Female - F,White - W,38.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22257,21BU020352,2021/12/07 22:30:00+00,Female - F,White - W,60.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+22313,21BU021378,2021/12/28 16:32:31+00,Female - F,White - W,23.0,Simple Assault 13 VSA 1023 13b,1.0,0,1,Assault
+21758,21BU005491,2021/08/04 10:45:00+00,Male - M,White - W,77.0,Sexual Assault 13 VSA 3252 11a,1.0,1,1,Sexual Offense
+21949,20BU015746,2021/09/20 12:07:00+00,Male - M,White - W,24.0,Sexual Assault 13 VSA 3252 11a,1.0,1,1,Sexual Offense
+21948,20BU015745,2021/09/20 12:07:00+00,Male - M,White - W,24.0,Sexual Assault 13 VSA 3252 11a,1.0,1,1,Sexual Offense
+21514,21BU008015,2021/06/11 00:00:00+00,Male - M,Black or African American - B,24.0,Murder - 2nd Degree 13 VSA 2303(a)(2) 09a,1.0,1,1,Assault
+21810,21BU009143,2021/08/23 16:09:00+00,Male - M,Black or African American - B,22.0,Murder - 2nd Degree 13 VSA 2303(a)(2) 09a,1.0,1,1,Assault
+21059,20BU022951,2021/01/04 12:30:00+00,Male - M,Black or African American - B,52.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21155,21BU001183,2021/02/16 11:00:00+00,Male - M,White - W,16.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21243,21BU003073,2021/03/12 15:30:00+00,Male - M,White - W,25.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21295,21BU003985,2021/03/30 10:50:00+00,Male - M,Black or African American - B,36.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21297,21BU003167,2021/03/30 11:11:00+00,Male - M,White - W,41.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21329,21BU004674,2021/04/11 12:27:00+00,Male - M,White - W,58.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21449,21BU006926,2021/05/19 21:53:10+00,Male - M,White - W,25.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21487,21BU007146,2021/05/30 15:20:00+00,Male - M,White - W,36.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21593,21BU010007,2021/07/03 20:05:00+00,Male - M,White - W,27.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21598,21BU010066,2021/07/04 06:38:00+00,Male - M,White - W,48.0,Domestic Assault 13 VSA 1042 13b,0.0,0,1,DV
+21621,21BU010327,2021/07/08 09:00:00+00,Male - M,White - W,25.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21629,21BU010560,2021/07/11 14:50:00+00,Male - M,Black or African American - B,18.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21659,21BU010978,2021/07/17 05:48:00+00,Male - M,White - W,24.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21663,21BU011016,2021/07/17 23:25:00+00,Male - M,White - W,53.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21740,21BU011976,2021/08/01 00:17:00+00,Male - M,Black or African American - B,20.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21750,21BU012094,2021/08/03 10:50:00+00,Male - M,White - W,34.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21826,21BU013849,2021/08/28 02:10:00+00,Male - M,White - W,33.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21881,21BU014747,2021/09/08 22:26:00+00,Male - M,Black or African American - B,60.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+22175,21BU019100,2021/11/13 11:16:00+00,Male - M,Black or African American - B,20.0,Domestic Assault 13 VSA 1042 13b,0.0,0,1,DV
+22276,21BU020786,2021/12/15 21:08:00+00,Male - M,White - W,22.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21250,21BU003275,2021/03/16 22:09:00+00,Female - F,White - W,49.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21540,21BU009119,2021/06/20 23:23:00+00,Female - F,White - W,27.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21560,21BU008783,2021/06/24 10:27:00+00,Female - F,White - W,22.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21834,21BU013975,2021/08/30 14:15:00+00,Female - F,White - W,34.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21911,21BU015071,2021/09/13 09:30:00+00,Female - F,Black or African American - B,27.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+22057,21BU017313,2021/10/14 14:00:00+00,Female - F,White - W,20.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+22220,21BU019691,2021/11/24 09:54:00+00,Female - F,White - W,30.0,Domestic Assault 13 VSA 1042 13b,1.0,0,1,DV
+21229,21BU002878,2021/03/08 11:16:00+00,Male - M,Black or African American - B,33.0,Domestic Assault - 2nd Degree Aggravated 13 VSA 1044 13a,1.0,1,1,DV
+21325,21BU004508,2021/04/10 00:38:00+00,Male - M,Black or African American - B,55.0,Domestic Assault - 2nd Degree Aggravated 13 VSA 1044 13a,1.0,1,1,DV
+21402,21BU005997,2021/05/05 22:35:00+00,Male - M,Asian - A,39.0,Domestic Assault - 2nd Degree Aggravated 13 VSA 1044 13a,1.0,1,1,DV
+21652,21BU008932,2021/07/15 10:49:00+00,Male - M,Black or African American - B,42.0,Domestic Assault - 2nd Degree Aggravated 13 VSA 1044 13a,0.0,1,1,DV
+21709,21BU010568,2021/07/26 13:43:00+00,Male - M,Black or African American - B,38.0,Domestic Assault - 2nd Degree Aggravated 13 VSA 1044 13a,1.0,1,1,DV
+21733,21BU011893,2021/07/30 23:41:00+00,Male - M,White - W,25.0,Domestic Assault - 2nd Degree Aggravated 13 VSA 1044 13a,1.0,1,1,DV
+21759,21BU012370,2021/08/06 14:35:00+00,Male - M,White - W,65.0,Domestic Assault - 2nd Degree Aggravated 13 VSA 1044 13a,1.0,1,1,DV
+21799,21BU013276,2021/08/19 11:48:00+00,Male - M,White - W,34.0,Domestic Assault - 2nd Degree Aggravated 13 VSA 1044 13a,1.0,1,1,DV
+21846,21BU014213,2021/09/02 02:46:59+00,Male - M,White - W,41.0,Domestic Assault - 2nd Degree Aggravated 13 VSA 1044 13a,1.0,1,1,DV
+22028,21BU016706,2021/10/06 15:21:00+00,Male - M,White - W,42.0,Domestic Assault - 2nd Degree Aggravated 13 VSA 1044 13a,1.0,1,1,DV
+21179,21BU002189,2021/02/22 08:02:00+00,Male - M,White - W,33.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21417,21BU006291,2021/05/11 04:00:00+00,Male - M,Black or African American - B,27.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21542,21BU008919,2021/06/21 12:34:00+00,Male - M,White - W,30.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21651,21BU008932,2021/07/15 10:49:00+00,Male - M,Black or African American - B,42.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21760,21BU012382,2021/08/06 16:56:00+00,Male - M,White - W,43.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21764,21BU012467,2021/08/08 00:55:00+00,Male - M,White - W,23.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21789,21BU012910,2021/08/14 00:00:00+00,Male - M,White - W,27.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21813,21BU012889,2021/08/24 14:31:00+00,Male - M,White - W,53.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21822,21BU013783,2021/08/26 23:48:00+00,Male - M,White - W,44.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21996,21BU016468,2021/10/01 16:41:00+00,Male - M,White - W,63.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+22090,21BU017848,2021/10/22 00:32:27+00,Male - M,Black or African American - B,21.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+22097,21BU017414,2021/10/23 19:38:00+00,Male - M,White - W,33.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+22174,21BU019100,2021/11/13 11:16:00+00,Male - M,Black or African American - B,20.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+22243,21BU019958,2021/12/03 13:30:00+00,Male - M,White - W,23.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+22306,21BU021283,2021/12/26 21:52:00+00,Male - M,Black or African American - B,42.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+22336,21BU021438,2021/12/31 11:17:00+00,Male - M,Black or African American - B,26.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21302,21BU004085,2021/03/31 22:49:00+00,Female - F,White - W,33.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21529,21BU008565,2021/06/17 00:50:25+00,Female - F,White - W,28.0,Domestic Assault - 1st Degree Aggravated 13 VSA 1043 13a,1.0,1,1,DV
+21767,21BU012482,2021/08/08 04:30:00+00,Male - M,White - W,42.0,Disarming a Law Enforcement Officer 13 VSA 3019 90z,0.0,1,1,Assault
+21359,21BU003319,2021/04/22 15:08:00+00,Male - M,White - W,37.0,Criminal Threatening 13 VSA 1702 (B) 13c,1.0,0,1,Assault
+21698,21BU011429,2021/07/24 10:35:00+00,Male - M,Black or African American - B,38.0,Criminal Threatening 13 VSA 1702 (B) 13c,1.0,0,1,Assault
+22040,21BU010440,2021/10/11 13:40:00+00,Male - M,White - W,22.0,Criminal Threatening 13 VSA 1702 (B) 13c,1.0,0,1,Assault
+22194,21BU019464,2021/11/19 11:11:00+00,Male - M,Black or African American - B,33.0,Criminal Threatening 13 VSA 1702 (B) 13c,1.0,0,1,Assault
+21098,21BU000669,2021/01/17 13:45:00+00,Transgender - T,White - W,38.0,Assault with Bodily Fluids (Misdemeanor) 13 VSA 1028(B)(1) 13b,1.0,0,1,Assault
+21148,21BU001723,2021/02/10 14:55:00+00,Male - M,White - W,38.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+21191,21BU002353,2021/02/25 11:17:00+00,Male - M,Black or African American - B,43.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+21209,21BU002575,2021/03/02 09:15:00+00,Male - M,White - W,36.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+21480,21BU007519,2021/05/28 02:30:00+00,Male - M,White - W,33.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+21620,21BU010327,2021/07/08 09:00:00+00,Male - M,White - W,25.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,0.0,0,1,Assault
+21792,21BU010634,2021/08/14 13:03:00+00,Male - M,White - W,43.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+21898,21BU014905,2021/09/11 01:20:32+00,Male - M,White - W,19.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+21925,21BU015477,2021/09/18 00:10:00+00,Male - M,Black or African American - B,45.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+21944,21BU015652,2021/09/20 11:36:00+00,Male - M,Black or African American - B,20.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,0.0,0,1,Assault
+21972,21BU016061,2021/09/25 21:35:00+00,Male - M,White - W,31.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+22088,21BU017832,2021/10/21 15:00:00+00,Male - M,White - W,32.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+22315,21BU021399,2021/12/28 18:11:00+00,Male - M,Black or African American - B,39.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,0.0,0,1,Assault
+21407,21BU006125,2021/05/08 06:45:00+00,Female - F,White - W,32.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+21545,21BU009243,2021/06/22 13:15:00+00,Female - F,White - W,25.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+22245,21BU020133,2021/12/03 22:17:00+00,Female - F,White - W,39.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Misdemeanor) 13 VSA 1028(a)(1) 13b,1.0,0,1,Assault
+21068,21BU000274,2021/01/07 16:12:00+00,Male - M,Black or African American - B,19.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+21095,21BU000587,2021/01/15 06:51:10+00,Male - M,White - W,45.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+21113,21BU000882,2021/01/22 21:53:00+00,Male - M,White - W,29.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+21156,21BU002060,2021/02/19 06:57:00+00,Male - M,White - W,36.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+21178,21BU002189,2021/02/22 08:02:00+00,Male - M,White - W,33.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,0.0,1,1,Assault
+21199,21BU002468,2021/02/27 20:53:00+00,Male - M,White - W,40.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+21369,21BU005348,2021/04/23 21:36:17+00,Male - M,White - W,39.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+21379,21BU005617,2021/04/28 23:10:00+00,Male - M,White - W,39.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+21463,21BU007160,2021/05/22 13:42:00+00,Male - M,Black or African American - B,32.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+21801,21BU013393,2021/08/21 10:33:00+00,Male - M,White - W,37.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+21858,21BU014349,2021/09/03 18:24:00+00,Male - M,White - W,58.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+22127,21BU018422,2021/11/01 02:27:00+00,Male - M,White - W,25.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+22314,21BU021399,2021/12/28 18:11:00+00,Male - M,Black or African American - B,39.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+22163,21BU019070,2021/11/11 18:40:00+00,Female - F,White - W,37.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,1.0,1,1,Assault
+22246,21BU020141,2021/12/04 02:30:00+00,Female - F,Black or African American - B,20.0,Assault on a Law Enforcement Officer/Firefighter/EMS/Health Care Worker (Felony) 13 VSA 1028(a)(2) 13a,0.0,1,1,Assault
+21431,21BU005370,2021/05/17 12:43:00+00,Male - M,Black or African American - B,43.0,Assault and Robbery 13 VSA 608 120,1.0,1,1,Assault
+21435,21BU005370,2021/05/17 12:45:00+00,Male - M,Black or African American - B,39.0,Assault and Robbery 13 VSA 608 120,1.0,1,1,Assault
+21474,21BU006852,2021/05/25 22:00:00+00,Male - M,White - W,37.0,Assault and Robbery 13 VSA 608 120,1.0,1,1,Assault
+21637,21BU010374,2021/07/12 12:45:36+00,Male - M,White - W,36.0,Assault and Robbery 13 VSA 608 120,1.0,1,1,Assault
+22044,21BU017058,2021/10/11 22:55:00+00,Male - M,White - W,38.0,Assault and Robbery 13 VSA 608 120,1.0,1,1,Assault
+22289,21BU020067,2021/12/21 17:29:00+00,Male - M,Black or African American - B,59.0,Assault and Robbery 13 VSA 608 120,1.0,1,1,Assault
+22318,21BU021406,2021/12/28 22:50:03+00,Male - M,White - W,35.0,Assault and Robbery 13 VSA 608 120,1.0,1,1,Assault
+21065,21BU000232,2021/01/06 17:52:00+00,Male - M,Black or African American - B,26.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21224,21BU002796,2021/03/06 12:55:00+00,Male - M,White - W,20.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21298,21BU004034,2021/03/31 03:53:42+00,Male - M,Black or African American - B,21.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21350,21BU005061,2021/04/17 23:00:00+00,Male - M,White - W,29.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21355,21BU005104,2021/04/18 23:02:00+00,Male - M,White - W,19.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21460,21BU007110,2021/05/21 21:32:00+00,Male - M,White - W,38.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21471,21BU007226,2021/05/23 02:24:00+00,Male - M,Black or African American - B,44.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21559,21BU008783,2021/06/24 10:27:00+00,Male - M,White - W,30.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21564,21BU009143,2021/06/25 21:25:00+00,Male - M,Black or African American - B,31.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21577,21BU009286,2021/06/29 09:30:00+00,Male - M,Black or African American - B,39.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21643,21BU010742,2021/07/14 04:15:00+00,Male - M,Black or African American - B,26.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21682,21BU010397,2021/07/20 14:50:00+00,Male - M,Black or African American - B,50.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21742,21BU011928,2021/08/01 12:00:00+00,Male - M,White - W,33.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21747,21BU012088,2021/08/02 21:49:00+00,Male - M,White - W,44.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21754,21BU011916,2021/08/03 14:45:00+00,Male - M,Black or African American - B,25.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21765,21BU012482,2021/08/08 04:30:00+00,Male - M,White - W,42.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21804,21BU013386,2021/08/22 21:26:00+00,Male - M,Black or African American - B,19.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21809,21BU009143,2021/08/23 16:09:00+00,Male - M,Black or African American - B,22.0,Aggravated Assault 13 VSA 1024 13a,0.0,1,1,Assault
+21833,21BU013962,2021/08/30 00:03:18+00,Male - M,White - W,17.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21870,21BU014401,2021/09/04 12:00:00+00,Male - M,White - W,46.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21912,21BU015075,2021/09/13 10:30:00+00,Male - M,Black or African American - B,41.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21994,21BU014411,2021/09/30 15:32:00+00,Male - M,White - W,36.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+22092,21BU017788,2021/10/22 02:37:00+00,Male - M,Black or African American - B,22.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+22136,21BU018452,2021/11/02 14:10:09+00,Male - M,White - W,16.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+22138,21BU014992,2021/11/02 15:00:00+00,Male - M,Black or African American - B,20.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+22146,21BU018598,2021/11/04 19:09:52+00,Male - M,Black or African American - B,37.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+22224,21BU019760,2021/11/26 01:19:28+00,Male - M,White - W,34.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+22252,21BU020242,2021/12/06 01:59:00+00,Male - M,Black or African American - B,39.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+22288,21BU020067,2021/12/21 17:29:00+00,Male - M,Black or African American - B,59.0,Aggravated Assault 13 VSA 1024 13a,0.0,1,1,Assault
+22317,21BU021406,2021/12/28 22:50:03+00,Male - M,White - W,35.0,Aggravated Assault 13 VSA 1024 13a,0.0,1,1,Assault
+22327,21BU020141,2021/12/30 13:48:00+00,Male - M,Black or African American - B,19.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21228,20BU023138,2021/03/08 09:07:41+00,Female - F,White - W,45.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21625,21BU010408,2021/07/09 09:16:00+00,Female - F,White - W,27.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21657,21BU010003,2021/07/16 22:49:00+00,Female - F,White - W,17.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21731,21BU011879,2021/07/30 18:35:00+00,Female - F,White - W,46.0,Aggravated Assault 13 VSA 1024 13a,1.0,1,1,Assault
+21561,21BU008783,2021/06/24 10:27:00+00,Male - M,White - W,30.0,"Weapons Possession or Use of Slung Shot, Blackjack, Brass Knuckles 13 VSA 4001 520",0.0,1,0,Weapons
+22147,21BU018598,2021/11/04 19:09:52+00,Male - M,Black or African American - B,37.0,"Weapons Possession or Use of Slung Shot, Blackjack, Brass Knuckles 13 VSA 4001 520",0.0,1,0,Weapons
+21434,21BU005370,2021/05/17 12:43:00+00,Male - M,Black or African American - B,43.0,Vulnerable Adults Unlawful Restraint/Confinement - Misdemeanor 13 VSA 1377(C)(1) 100,0.0,0,0,Other
+21437,21BU005370,2021/05/17 12:45:00+00,Male - M,Black or African American - B,39.0,Vulnerable Adults Unlawful Restraint/Confinement - Misdemeanor 13 VSA 1377(C)(1) 100,0.0,0,0,Other
+21082,21BU000397,2021/01/10 23:20:00+00,Male - M,White - W,26.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21107,21BU000580,2021/01/21 22:43:00+00,Male - M,White - W,65.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21131,21BU001381,2021/02/04 03:10:00+00,Male - M,White - W,26.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21154,21BU001910,2021/02/15 18:52:00+00,Male - M,Black or African American - B,18.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21182,21BU002189,2021/02/22 08:02:00+00,Male - M,White - W,33.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",0.0,0,0,Warrant or Court Order
+21202,21BU002485,2021/02/28 12:00:00+00,Male - M,Black or African American - B,19.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21231,21BU002897,2021/03/08 19:23:00+00,Male - M,White - W,45.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21259,21BU003396,2021/03/18 22:20:58+00,Male - M,White - W,29.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21293,21BU001002,2021/03/29 23:44:00+00,Male - M,Black or African American - B,19.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21306,21BU004168,2021/04/02 15:08:40+00,Male - M,White - W,29.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21317,21BU003940,2021/04/08 17:38:00+00,Male - M,Black or African American - B,47.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",0.0,0,0,Warrant or Court Order
+21337,21BU004815,2021/04/13 19:28:22+00,Male - M,Black or African American - B,41.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21367,21BU005043,2021/04/23 12:33:00+00,Male - M,White - W,38.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",0.0,0,0,Warrant or Court Order
+21451,21BU006956,2021/05/20 05:18:00+00,Male - M,Black or African American - B,20.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21467,21BU007160,2021/05/22 13:42:00+00,Male - M,Black or African American - B,32.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",0.0,0,0,Warrant or Court Order
+21469,21BU007196,2021/05/22 22:38:24+00,Male - M,White - W,44.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21701,21BU011527,2021/07/25 18:34:00+00,Male - M,Black or African American - B,51.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21746,21BU011748,2021/08/02 21:42:00+00,Male - M,White - W,35.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21793,21BU012947,2021/08/14 17:45:41+00,Male - M,White - W,45.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21802,21BU013437,2021/08/22 00:20:00+00,Male - M,White - W,45.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21924,21BU015452,2021/09/17 19:18:00+00,Male - M,White - W,44.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+22029,21BU016706,2021/10/06 15:21:00+00,Male - M,White - W,42.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",0.0,0,0,Warrant or Court Order
+22032,21BU016800,2021/10/07 00:42:00+00,Male - M,White - W,42.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+22063,21BU017359,2021/10/15 12:27:00+00,Male - M,White - W,38.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",0.0,0,0,Warrant or Court Order
+22084,21BU017711,2021/10/19 21:20:00+00,Male - M,White - W,34.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+22191,21BU018857,2021/11/18 09:47:00+00,Male - M,White - W,38.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+22259,21BU020356,2021/12/08 00:00:00+00,Male - M,White - W,34.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+22295,21BU021120,2021/12/22 01:05:00+00,Male - M,White - W,58.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+22297,21BU021145,2021/12/22 17:56:00+00,Male - M,White - W,58.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+22325,21BU021389,2021/12/30 08:40:00+00,Male - M,White - W,43.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21244,21BU003034,2021/03/13 14:00:00+00,Female - F,Black or African American - B,23.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+22022,21BU015070,2021/10/05 14:31:00+00,Female - F,White - W,55.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+22109,21BU018179,2021/10/28 00:22:00+00,Female - F,White - W,29.0,"Violation of Conditions of Release (Travel, Curfew, or Contact) 13 VSA 7559(F) 90z",1.0,0,0,Warrant or Court Order
+21176,21BU002138,2021/02/21 14:55:00+00,Male - M,White - W,34.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+21181,21BU002189,2021/02/22 08:02:00+00,Male - M,White - W,33.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+21287,21BU003891,2021/03/28 02:00:00+00,Male - M,White - W,37.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+21292,21BU003957,2021/03/29 18:37:00+00,Male - M,Black or African American - B,30.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+21466,21BU007160,2021/05/22 13:42:00+00,Male - M,Black or African American - B,32.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+21522,21BU007174,2021/06/14 15:59:00+00,Male - M,Black or African American - B,47.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+21566,21BU009533,2021/06/26 23:59:00+00,Male - M,Asian - A,25.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+21699,21BU011483,2021/07/24 23:05:00+00,Male - M,Asian - A,31.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+21744,21BU012100,2021/08/02 18:20:00+00,Male - M,White - W,26.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+21908,21BU015049,2021/09/12 22:44:00+00,Male - M,Black or African American - B,21.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+21926,21BU015477,2021/09/18 00:10:00+00,Male - M,Black or African American - B,45.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+21968,21BU015931,2021/09/23 22:29:00+00,Male - M,Black or African American - B,45.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+22049,21BU015018,2021/10/13 00:00:00+00,Male - M,Black or African American - B,31.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+22055,21BU016931,2021/10/13 21:07:00+00,Male - M,White - W,37.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+22155,21BU018781,2021/11/06 20:00:00+00,Male - M,White - W,38.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+22199,21BU019489,2021/11/19 19:52:00+00,Male - M,White - W,38.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+22258,21BU020355,2021/12/08 00:00:00+00,Male - M,Black or African American - B,31.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+22273,21BU020667,2021/12/13 18:33:00+00,Male - M,White - W,34.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+22281,21BU020906,2021/12/17 19:55:00+00,Male - M,Asian - A,33.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+22294,21BU021120,2021/12/22 01:05:00+00,Male - M,White - W,58.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+22296,21BU021145,2021/12/22 17:56:00+00,Male - M,White - W,58.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+22305,21BU021293,2021/12/26 17:45:00+00,Male - M,Black or African American - B,31.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+21094,21BU000583,2021/01/14 23:35:00+00,Female - F,White - W,34.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+21135,21BU001485,2021/02/05 17:26:00+00,Female - F,White - W,39.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+21356,21BU005204,2021/04/21 11:56:09+00,Female - F,White - W,28.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+21670,21BU011048,2021/07/18 17:55:00+00,Female - F,White - W,41.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,1.0,0,0,Warrant or Court Order
+22108,21BU018179,2021/10/28 00:22:00+00,Female - F,White - W,29.0,Violation of Conditions of Release (Other) 13 VSA 7559(E) 90z,0.0,0,0,Warrant or Court Order
+21342,21BU004420,2021/04/15 11:00:00+00,Male - M,Black or African American - B,13.0,Uttering a Forged Instrument 13 VSA 1802 250,1.0,1,0,Financial
+21343,21BU004420,2021/04/15 11:00:00+00,Male - M,White - W,15.0,Uttering a Forged Instrument 13 VSA 1802 250,1.0,1,0,Financial
+21472,21BU006194,2021/05/23 10:16:00+00,Male - M,White - W,21.0,Uttering a Forged Instrument 13 VSA 1802 250,1.0,1,0,Financial
+22231,21BU019330,2021/11/30 13:30:00+00,Male - M,White - W,33.0,Uttering a Forged Instrument 13 VSA 1802 250,1.0,1,0,Financial
+21336,21BU004420,2021/04/13 13:30:00+00,Female - F,White - W,15.0,Uttering a Forged Instrument 13 VSA 1802 250,1.0,1,0,Financial
+21791,21BU011778,2021/08/14 12:50:00+00,Female - F,White - W,48.0,Uttering a Forged Instrument 13 VSA 1802 250,1.0,1,0,Financial
+21054,20BU023363,2021/01/02 17:00:00+00,Male - M,Black or African American - B,19.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21105,21BU000813,2021/01/21 11:22:00+00,Male - M,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21125,21BU001044,2021/01/26 19:00:00+00,Male - M,White - W,18.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21157,21BU001920,2021/02/19 06:57:00+00,Male - M,White - W,36.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21159,21BU001562,2021/02/20 09:45:00+00,Male - M,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21208,21BU002570,2021/03/02 02:00:00+00,Male - M,White - W,20.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21211,21BU002370,2021/03/03 11:18:00+00,Male - M,White - W,18.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21218,21BU002715,2021/03/04 19:56:00+00,Male - M,White - W,37.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21223,21BU002728,2021/03/05 08:20:00+00,Male - M,White - W,56.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21232,21BU002921,2021/03/09 12:39:00+00,Male - M,Black or African American - B,35.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21249,21BU003225,2021/03/15 13:00:00+00,Male - M,White - W,52.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21262,21BU002594,2021/03/20 11:41:00+00,Male - M,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21263,21BU002872,2021/03/20 12:35:00+00,Male - M,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21291,21BU003928,2021/03/29 12:15:00+00,Male - M,White - W,31.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21316,21BU004376,2021/04/06 23:00:00+00,Male - M,White - W,43.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21347,21BU004942,2021/04/15 20:30:00+00,Male - M,White - W,43.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21394,21BU005855,2021/05/03 07:30:00+00,Male - M,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21399,21BU005924,2021/05/04 15:14:00+00,Male - M,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21429,21BU006645,2021/05/16 10:00:00+00,Male - M,White - W,57.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21519,21BU008704,2021/06/14 02:26:00+00,Male - M,White - W,35.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21546,21BU009287,2021/06/22 23:10:00+00,Male - M,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21575,21BU009660,2021/06/28 20:15:00+00,Male - M,White - W,43.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21618,21BU010285,2021/07/07 14:10:00+00,Male - M,White - W,44.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21690,21BU011223,2021/07/21 17:22:00+00,Male - M,White - W,22.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21735,21BU011911,2021/07/31 03:00:18+00,Male - M,White - W,36.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21776,21BU012681,2021/08/10 22:20:00+00,Male - M,White - W,44.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21784,21BU012796,2021/08/12 18:13:00+00,Male - M,White - W,19.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21851,21BU011609,2021/09/02 19:32:00+00,Male - M,White - W,44.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21877,21BU014565,2021/09/07 00:10:44+00,Male - M,White - W,48.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21923,21BU015350,2021/09/16 19:22:00+00,Male - M,Black or African American - B,45.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21970,21BU009627,2021/09/25 16:06:00+00,Male - M,Black or African American - B,19.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21975,21BU016067,2021/09/26 01:37:00+00,Male - M,Black or African American - B,38.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22015,21BU016668,2021/10/05 09:40:00+00,Male - M,White - W,33.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22033,21BU016808,2021/10/07 04:22:00+00,Male - M,Unknown - U,23.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22056,21BU017273,2021/10/14 00:08:00+00,Male - M,White - W,49.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22101,21BU017799,2021/10/26 11:46:00+00,Male - M,White - W,42.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22154,21BU018781,2021/11/06 20:00:00+00,Male - M,White - W,38.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22215,21BU019653,2021/11/23 12:40:00+00,Male - M,White - W,60.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22256,21BU020353,2021/12/07 21:59:00+00,Male - M,White - W,40.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,0.0,0,0,Trespass
+22277,21BU020792,2021/12/16 01:38:00+00,Male - M,Black or African American - B,36.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22291,21BU021112,2021/12/21 22:15:08+00,Male - M,White - W,41.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21055,21BU000127,2021/01/04 03:30:00+00,Female - F,White - W,39.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21060,21BU000148,2021/01/04 15:30:00+00,Female - F,White - W,39.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21061,21BU000155,2021/01/04 18:45:00+00,Female - F,White - W,39.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21077,21BU000316,2021/01/08 19:10:00+00,Female - F,White - W,51.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21083,21BU000427,2021/01/11 16:41:00+00,Female - F,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21110,21BU000310,2021/01/22 11:15:59+00,Female - F,White - W,25.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21121,21BU000672,2021/01/24 10:38:00+00,Female - F,White - W,33.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,0.0,0,0,Trespass
+21127,21BU001230,2021/01/31 09:30:00+00,Female - F,White - W,39.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21128,21BU001252,2021/01/31 19:53:00+00,Female - F,White - W,39.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21184,21BU002207,2021/02/22 13:23:00+00,Female - F,White - W,33.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21219,21BU002715,2021/03/04 19:57:00+00,Female - F,White - W,38.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21227,21BU002845,2021/03/07 13:23:00+00,Female - F,White - W,33.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21282,21BU003782,2021/03/26 10:40:00+00,Female - F,White - W,33.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21344,21BU004413,2021/04/15 13:23:00+00,Female - F,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21346,21BU004933,2021/04/15 17:36:00+00,Female - F,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,0.0,0,0,Trespass
+21351,21BU005074,2021/04/18 08:52:00+00,Female - F,White - W,45.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21380,21BU005627,2021/04/29 09:10:00+00,Female - F,White - W,41.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21410,21BU006164,2021/05/08 21:17:00+00,Female - F,White - W,27.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21446,21BU006885,2021/05/19 14:45:00+00,Female - F,White - W,52.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21486,21BU007158,2021/05/30 06:39:00+00,Female - F,White - W,34.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,0.0,0,0,Trespass
+21499,21BU006665,2021/06/07 00:00:00+00,Female - F,White - W,36.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21501,21BU008168,2021/06/07 13:55:00+00,Female - F,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21502,21BU008173,2021/06/07 14:51:00+00,Female - F,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21513,21BU008472,2021/06/10 18:00:00+00,Female - F,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21521,21BU008716,2021/06/14 09:49:00+00,Female - F,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21531,21BU008886,2021/06/17 10:46:00+00,Female - F,White - W,32.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21741,21BU011988,2021/08/01 02:30:00+00,Female - F,White - W,35.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21934,21BU015587,2021/09/19 09:45:00+00,Female - F,White - W,34.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,0.0,0,0,Trespass
+21937,21BU015609,2021/09/19 13:27:00+00,Female - F,White - W,34.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,0.0,0,0,Trespass
+22036,21BU016930,2021/10/09 01:35:00+00,Female - F,White - W,34.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22102,21BU017799,2021/10/26 11:47:00+00,Female - F,White - W,30.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22188,21BU019378,2021/11/17 11:43:00+00,Female - F,White - W,34.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22311,21BU015506,2021/12/28 15:00:00+00,Female - F,White - W,14.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+22312,21BU015506,2021/12/28 15:00:00+00,Female - F,White - W,15.0,Unlawful Trespass (Misdemeanor) 13 VSA 3705 90j,1.0,0,0,Trespass
+21081,21BU000389,2021/01/10 17:44:00+00,Male - M,Black or African American - B,19.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,0.0,1,0,Trespass
+21237,21BU003014,2021/03/11 03:57:00+00,Male - M,White - W,30.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+21439,21BU006732,2021/05/17 16:59:28+00,Male - M,White - W,17.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+21596,21BU010041,2021/07/04 01:46:00+00,Male - M,Black or African American - B,41.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+21720,21BU010887,2021/07/28 22:59:00+00,Male - M,White - W,30.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+21749,21BU012137,2021/08/03 08:45:00+00,Male - M,White - W,41.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+21905,21BU014998,2021/09/12 05:21:00+00,Male - M,White - W,30.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+22280,21BU020906,2021/12/17 19:55:00+00,Male - M,Asian - A,33.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+21505,21BU008233,2021/06/08 15:46:00+00,Female - F,Black or African American - B,32.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+21606,21BU010163,2021/07/05 16:42:00+00,Female - F,White - W,32.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+21608,21BU010163,2021/07/05 16:43:00+00,Female - F,White - W,27.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+21685,21BU010829,2021/07/20 16:03:00+00,Female - F,Black or African American - B,32.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+22178,21BU018542,2021/11/14 19:56:00+00,Female - F,White - W,27.0,Unlawful Trespass (Felony) 13 VSA 3705(D) 90j,1.0,1,0,Trespass
+21058,21BU000026,2021/01/04 06:00:00+00,Transgender - T,White - W,62.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21067,21BU000178,2021/01/07 14:00:00+00,Male - M,White - W,42.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21070,21BU000274,2021/01/07 16:12:00+00,Male - M,Black or African American - B,19.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21080,21BU000389,2021/01/10 17:44:00+00,Male - M,Black or African American - B,19.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21084,21BU000498,2021/01/13 00:58:00+00,Male - M,White - W,17.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21167,21BU002129,2021/02/20 14:53:00+00,Male - M,White - W,42.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21172,21BU002129,2021/02/20 14:55:00+00,Male - M,White - W,34.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21171,21BU002128,2021/02/20 14:55:00+00,Male - M,White - W,34.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21271,21BU001063,2021/03/23 09:35:00+00,Male - M,White - W,57.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21284,20BU023023,2021/03/26 18:40:00+00,Male - M,White - W,34.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21285,21BU003783,2021/03/27 13:00:00+00,Male - M,White - W,40.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21296,21BU003985,2021/03/30 10:50:00+00,Male - M,Black or African American - B,36.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21335,21BU004779,2021/04/13 07:00:00+00,Male - M,White - W,54.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21443,21BU005227,2021/05/18 17:52:00+00,Male - M,White - W,32.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21454,21BU006959,2021/05/20 09:11:00+00,Male - M,White - W,33.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21465,21BU007163,2021/05/22 13:42:00+00,Male - M,Black or African American - B,32.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21470,21BU007202,2021/05/22 23:14:00+00,Male - M,White - W,22.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21493,21BU006866,2021/06/02 11:11:00+00,Male - M,Black or African American - B,32.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21552,21BU009296,2021/06/23 09:23:00+00,Male - M,Black or African American - B,36.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21563,21BU009149,2021/06/24 12:12:00+00,Male - M,Asian - A,25.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21567,21BU009569,2021/06/27 15:00:00+00,Male - M,Black or African American - B,26.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21583,21BU009769,2021/06/30 12:20:00+00,Male - M,Black or African American - B,26.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21783,21BU012764,2021/08/12 13:00:00+00,Male - M,Black or African American - B,32.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21815,21BU013669,2021/08/25 12:14:00+00,Male - M,Black or African American - B,16.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21845,21BU014216,2021/09/02 01:54:07+00,Male - M,White - W,26.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21931,21BU015540,2021/09/18 19:10:45+00,Male - M,White - W,34.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21985,21BU016238,2021/09/28 15:54:00+00,Male - M,White - W,34.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+22003,21BU016579,2021/10/03 16:50:00+00,Male - M,Asian - A,47.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+22067,21BU017415,2021/10/15 20:54:00+00,Male - M,White - W,59.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+22153,21BU018781,2021/11/06 20:00:00+00,Male - M,White - W,38.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+22203,21BU019544,2021/11/20 22:28:00+00,Male - M,White - W,58.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+22204,21BU019547,2021/11/20 23:00:00+00,Male - M,White - W,58.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+22212,21BU016167,2021/11/22 14:43:00+00,Male - M,Black or African American - B,35.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+22255,21BU020353,2021/12/07 21:59:00+00,Male - M,White - W,40.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+22293,21BU009199,2021/12/21 22:56:00+00,Male - M,White - W,42.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+22324,21BU021389,2021/12/30 08:40:00+00,Male - M,White - W,43.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21332,21BU004767,2021/04/12 20:51:00+00,Female - F,White - W,52.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+21526,21BU008842,2021/06/15 23:30:00+00,Female - F,White - W,41.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21658,21BU010003,2021/07/16 22:49:00+00,Female - F,White - W,17.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,0.0,0,0,Property
+22091,21BU017856,2021/10/22 00:35:37+00,Female - F,White - W,28.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+22112,21BU018195,2021/10/28 07:24:00+00,Female - F,White - W,49.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+22118,21BU018196,2021/10/28 11:32:00+00,Female - F,White - W,49.0,Unlawful Mischief (Misdemeanor) 13 VSA 3701(B) 290,1.0,0,0,Property
+21137,21BU000221,2021/02/06 14:00:00+00,Male - M,White - W,35.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+21304,21BU004115,2021/04/01 19:17:00+00,Male - M,White - W,43.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+21400,21BU005946,2021/05/04 22:50:00+00,Male - M,White - W,42.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+21441,21BU006767,2021/05/17 23:17:00+00,Male - M,Black or African American - B,32.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+21464,21BU007160,2021/05/22 13:42:00+00,Male - M,Black or African American - B,32.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,0.0,1,0,Property
+21582,21BU009769,2021/06/30 12:20:00+00,Male - M,Black or African American - B,26.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+21630,21BU010560,2021/07/11 14:50:00+00,Male - M,Black or African American - B,18.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,0.0,1,0,Property
+21691,21BU008753,2021/07/22 00:00:00+00,Male - M,White - W,29.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+21703,21BU011535,2021/07/25 20:14:00+00,Male - M,White - W,31.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,0.0,1,0,Property
+21770,21BU012531,2021/08/09 04:56:00+00,Male - M,White - W,59.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+21782,21BU012764,2021/08/12 13:00:00+00,Male - M,Black or African American - B,32.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+21920,21BU015166,2021/09/14 14:18:53+00,Male - M,White - W,30.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+21984,21BU016238,2021/09/28 15:54:00+00,Male - M,White - W,34.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+22095,21BU017873,2021/10/22 10:36:00+00,Male - M,White - W,34.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+22096,21BU017955,2021/10/23 10:01:00+00,Male - M,White - W,34.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+22181,21BU016322,2021/11/15 11:13:00+00,Male - M,White - W,38.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+22251,21BU020196,2021/12/05 02:36:00+00,Male - M,White - W,21.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+21680,21BU011125,2021/07/20 09:45:00+00,Female - F,Black or African American - B,32.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,0.0,1,0,Property
+22059,21BU017313,2021/10/14 14:00:00+00,Female - F,White - W,20.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,0.0,1,0,Property
+22267,21BU020526,2021/12/11 15:21:00+00,Female - F,White - W,33.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+22282,21BU020908,2021/12/17 20:35:00+00,Female - F,White - W,33.0,Unlawful Mischief (Felony) 13 VSA 3701(a) 290,1.0,1,0,Property
+21147,21BU001722,2021/02/10 14:35:00+00,Male - M,White - W,39.0,Theft of Services (Misdemeanor) 13 VSA 2582 23h,1.0,0,0,Property
+21190,21BU002245,2021/02/24 11:17:08+00,Male - M,Black or African American - B,15.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,0.0,0,0,Property
+21217,21BU002245,2021/03/04 17:27:10+00,Male - M,White - W,15.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,0.0,0,0,Property
+21234,20BU020681,2021/03/10 10:41:00+00,Male - M,White - W,41.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,0.0,0,0,Property
+21388,21BU005747,2021/05/01 06:00:00+00,Male - M,Black or African American - B,19.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,1.0,0,0,Property
+21476,21BU005471,2021/05/25 22:26:00+00,Male - M,White - W,37.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,1.0,0,0,Property
+21484,21BU007607,2021/05/29 15:49:00+00,Male - M,White - W,38.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,0.0,0,0,Property
+21579,21BU008968,2021/06/29 19:45:00+00,Male - M,White - W,29.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,1.0,0,0,Property
+21684,21BU010768,2021/07/20 15:09:52+00,Male - M,White - W,37.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,0.0,0,0,Property
+21715,21BU011632,2021/07/27 10:55:00+00,Male - M,White - W,42.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,0.0,0,0,Property
+21814,21BU013650,2021/08/24 21:56:00+00,Male - M,White - W,34.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,1.0,0,0,Property
+21915,21BU015098,2021/09/13 13:57:13+00,Male - M,White - W,43.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,1.0,0,0,Property
+21252,21BU003070,2021/03/17 16:30:00+00,Female - F,White - W,23.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,1.0,0,0,Property
+21679,21BU011125,2021/07/20 09:45:00+00,Female - F,Black or African American - B,32.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,0.0,0,0,Property
+21723,21BU011772,2021/07/29 08:45:00+00,Female - F,White - W,39.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,0.0,0,0,Property
+21790,21BU011778,2021/08/14 12:50:00+00,Female - F,White - W,48.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,0.0,0,0,Property
+21953,21BU015683,2021/09/20 20:28:00+00,Female - F,White - W,29.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,1.0,0,0,Property
+22074,21BU017496,2021/10/16 22:01:00+00,Female - F,White - W,35.0,Stolen Property Receiving (Possession of) Stolen Property (Misdemeanor) 13 VSA 2561 280,1.0,0,0,Property
+21214,21BU002647,2021/03/03 15:17:00+00,Male - M,White - W,27.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,1.0,1,0,Property
+21276,21BU002990,2021/03/24 14:15:00+00,Male - M,White - W,61.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,1.0,1,0,Property
+21405,21BU005708,2021/05/07 14:39:00+00,Male - M,White - W,27.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,1.0,1,0,Property
+21423,21BU006503,2021/05/14 11:10:00+00,Male - M,White - W,42.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,1.0,1,0,Property
+21914,21BU008337,2021/09/13 13:57:00+00,Male - M,White - W,43.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,1.0,1,0,Property
+21922,21BU015292,2021/09/16 16:33:00+00,Male - M,White - W,35.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,1.0,1,0,Property
+21989,21BU016156,2021/09/29 11:30:00+00,Male - M,White - W,41.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,0.0,1,0,Property
+22010,21BU016619,2021/10/04 12:16:00+00,Male - M,Black or African American - B,20.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,0.0,1,0,Property
+22012,21BU016619,2021/10/04 12:17:00+00,Male - M,Black or African American - B,18.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,0.0,1,0,Property
+22065,21BU017350,2021/10/15 16:47:00+00,Male - M,White - W,31.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,0.0,1,0,Property
+22192,21BU000134,2021/11/18 11:18:00+00,Male - M,White - W,30.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,1.0,1,0,Property
+22260,21BU018861,2021/12/08 16:18:00+00,Male - M,White - W,31.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,1.0,1,0,Property
+21093,21BU000554,2021/01/14 15:00:00+00,Female - F,White - W,37.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,0.0,1,0,Property
+21688,21BU011106,2021/07/21 14:15:00+00,Female - F,White - W,39.0,Stolen Property Receiving (Possession of) Stolen Property (Felony) 13 VSA 2561 280,1.0,1,0,Property
+21122,21BU000859,2021/01/25 22:53:00+00,Male - M,White - W,40.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21247,21BU003118,2021/03/13 21:05:00+00,Male - M,White - W,37.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21300,21BU004034,2021/03/31 03:53:42+00,Male - M,Black or African American - B,21.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,0.0,0,0,Property
+21459,21BU007095,2021/05/21 19:04:41+00,Male - M,White - W,38.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21483,21BU007607,2021/05/29 15:49:00+00,Male - M,White - W,38.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21725,21BU011753,2021/07/29 21:00:00+00,Male - M,White - W,33.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21768,21BU012506,2021/08/08 17:50:00+00,Male - M,White - W,35.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21780,21BU012770,2021/08/12 10:33:00+00,Male - M,White - W,42.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21797,21BU013006,2021/08/16 10:12:49+00,Male - M,White - W,37.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21987,21BU016273,2021/09/29 11:12:00+00,Male - M,White - W,31.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22042,21BU017117,2021/10/11 15:37:00+00,Male - M,White - W,45.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22045,21BU015605,2021/10/12 14:30:31+00,Male - M,White - W,43.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22069,21BU013688,2021/10/16 01:45:00+00,Male - M,White - W,31.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22094,21BU016114,2021/10/22 06:15:00+00,Male - M,White - W,48.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22123,21BU013877,2021/10/30 20:53:00+00,Male - M,White - W,38.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22232,21BU019047,2021/12/01 11:14:00+00,Male - M,White - W,31.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22310,21BU017173,2021/12/28 10:16:00+00,Male - M,White - W,30.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21104,21BU000256,2021/01/20 12:07:00+00,Female - F,White - W,32.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21120,21BU000934,2021/01/24 10:38:00+00,Female - F,White - W,33.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21119,21BU000672,2021/01/24 10:38:00+00,Female - F,White - W,33.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21225,21BU002812,2021/03/06 19:00:00+00,Female - F,White - W,31.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21323,21BU004543,2021/04/09 15:45:00+00,Female - F,White - W,32.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,0.0,0,0,Property
+21462,21BU006467,2021/05/22 10:21:00+00,Female - F,White - W,36.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21485,21BU007158,2021/05/30 06:39:00+00,Female - F,White - W,34.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21769,21BU012506,2021/08/08 17:50:00+00,Female - F,White - W,34.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21781,21BU012770,2021/08/12 10:33:00+00,Female - F,White - W,44.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21933,21BU015587,2021/09/19 09:45:00+00,Female - F,White - W,34.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21936,21BU015609,2021/09/19 13:27:00+00,Female - F,White - W,34.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21938,21BU015610,2021/09/19 13:37:00+00,Female - F,White - W,34.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21942,21BU013684,2021/09/20 10:52:00+00,Female - F,White - W,37.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22007,21BU012016,2021/10/04 07:06:00+00,Female - F,White - W,37.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22016,21BU016679,2021/10/05 10:00:00+00,Female - F,White - W,34.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22035,21BU016930,2021/10/09 01:35:00+00,Female - F,White - W,34.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,0.0,0,0,Property
+22047,21BU017199,2021/10/12 19:00:00+00,Female - F,White - W,33.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,0.0,0,0,Property
+22048,21BU017196,2021/10/12 19:02:00+00,Female - F,White - W,33.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22105,21BU016849,2021/10/27 10:57:00+00,Female - F,White - W,42.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22150,21BU018728,2021/11/05 16:15:00+00,Female - F,White - W,34.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22184,21BU014619,2021/11/17 06:00:00+00,Female - F,White - W,38.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22272,21BU019833,2021/12/13 12:00:00+00,Female - F,White - W,33.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+22284,21BU020893,2021/12/18 15:54:00+00,Female - F,White - W,43.0,Retail Theft (Misdemeanor) 13 VSA 2575 23c,1.0,0,0,Property
+21450,21BU005591,2021/05/20 00:00:00+00,Male - M,White - W,41.0,Retail Theft (Felony) 13 VSA 2575 23c,1.0,1,0,Property
+22039,21BU016101,2021/10/11 09:03:00+00,Male - M,White - W,46.0,Retail Theft (Felony) 13 VSA 2575 23c,1.0,1,0,Property
+21840,21BU008523,2021/08/31 02:23:00+00,Female - F,White - W,37.0,Retail Theft (Felony) 13 VSA 2575 23c,1.0,1,0,Property
+21930,21BU015535,2021/09/18 18:39:20+00,Female - F,White - W,34.0,Retail Theft (Felony) 13 VSA 2575 23c,1.0,1,0,Property
+21951,21BU015009,2021/09/20 16:46:00+00,Female - F,White - W,37.0,Retail Theft (Felony) 13 VSA 2575 23c,1.0,1,0,Property
+22080,21BU014844,2021/10/19 00:00:00+00,Female - F,White - W,37.0,Retail Theft (Felony) 13 VSA 2575 23c,1.0,1,0,Property
+22093,21BU012187,2021/10/22 06:11:00+00,Female - F,White - W,37.0,Retail Theft (Felony) 13 VSA 2575 23c,1.0,1,0,Property
+21069,21BU000274,2021/01/07 16:12:00+00,Male - M,Black or African American - B,19.0,Resisting Arrest 13 VSA 3017 90z,0.0,0,0,Other
+21201,21BU002468,2021/02/27 20:53:00+00,Male - M,White - W,40.0,Resisting Arrest 13 VSA 3017 90z,0.0,0,0,Other
+21766,21BU012482,2021/08/08 04:30:00+00,Male - M,White - W,42.0,Resisting Arrest 13 VSA 3017 90z,0.0,0,0,Other
+21860,21BU014349,2021/09/03 18:24:00+00,Male - M,White - W,58.0,Resisting Arrest 13 VSA 3017 90z,0.0,0,0,Other
+21946,21BU015652,2021/09/20 11:36:00+00,Male - M,Black or African American - B,20.0,Resisting Arrest 13 VSA 3017 90z,0.0,0,0,Other
+21974,21BU016061,2021/09/25 21:35:00+00,Male - M,White - W,31.0,Resisting Arrest 13 VSA 3017 90z,0.0,0,0,Other
+22002,21BU016579,2021/10/03 16:50:00+00,Male - M,Asian - A,47.0,Resisting Arrest 13 VSA 3017 90z,0.0,0,0,Other
+22270,21BU020596,2021/12/12 20:49:42+00,Male - M,Black or African American - B,47.0,Resisting Arrest 13 VSA 3017 90z,0.0,0,0,Other
+21678,21BU011125,2021/07/20 09:45:00+00,Female - F,Black or African American - B,32.0,Resisting Arrest 13 VSA 3017 90z,0.0,0,0,Other
+21722,21BU011772,2021/07/29 08:45:00+00,Female - F,White - W,39.0,Resisting Arrest 13 VSA 3017 90z,0.0,0,0,Other
+21515,21BU008015,2021/06/11 00:00:00+00,Male - M,Black or African American - B,24.0,Reckless Endangerment 13 VSA 1025 13c,0.0,0,0,Assault
+21532,21BU008890,2021/06/17 15:45:00+00,Female - F,White - W,27.0,Prohibited Conduct - Lewd &amp; Lascivious,1.0,0,0,Sexual Offense
+21401,21BU005946,2021/05/04 22:50:00+00,Male - M,White - W,42.0,Possessing/Making Burglar'S Tools 13 VSA 1204 220,0.0,1,0,Property
+21103,21BU000746,2021/01/19 16:30:00+00,Female - F,White - W,66.0,Petit Larceny Other 13 VSA 2502 23h,1.0,0,0,Property
+21352,21BU000277,2021/04/18 13:18:00+00,Male - M,White - W,41.0,Petit Larceny from Other Location 13 VSA 2502 23h,1.0,0,0,Property
+21668,21BU011043,2021/07/18 15:19:00+00,Male - M,White - W,46.0,Petit Larceny from Other Location 13 VSA 2502 23h,0.0,0,0,Property
+21727,21BU011847,2021/07/30 10:37:00+00,Male - M,White - W,33.0,Petit Larceny from Other Location 13 VSA 2502 23h,1.0,0,0,Property
+21066,21BU000178,2021/01/07 14:00:00+00,Male - M,White - W,42.0,Petit Larceny from a Motor Vehicle 13 VSA 2502 23f,1.0,0,0,Property
+21165,21BU002129,2021/02/20 14:53:00+00,Male - M,White - W,42.0,Petit Larceny from a Motor Vehicle 13 VSA 2502 23f,0.0,0,0,Property
+21170,21BU002129,2021/02/20 14:55:00+00,Male - M,White - W,34.0,Petit Larceny from a Motor Vehicle 13 VSA 2502 23f,0.0,0,0,Property
+21169,21BU002128,2021/02/20 14:55:00+00,Male - M,White - W,34.0,Petit Larceny from a Motor Vehicle 13 VSA 2502 23f,1.0,0,0,Property
+21266,21BU003532,2021/03/21 19:55:00+00,Male - M,White - W,22.0,Petit Larceny from a Motor Vehicle 13 VSA 2502 23f,0.0,0,0,Property
+21558,21BU008806,2021/06/24 10:22:00+00,Male - M,White - W,37.0,Petit Larceny from a Motor Vehicle 13 VSA 2502 23f,1.0,0,0,Property
+21966,21BU015873,2021/09/23 22:19:00+00,Male - M,Black or African American - B,18.0,Petit Larceny from a Motor Vehicle 13 VSA 2502 23f,1.0,0,0,Property
+21967,21BU015873,2021/09/23 22:19:00+00,Male - M,Black or African American - B,19.0,Petit Larceny from a Motor Vehicle 13 VSA 2502 23f,1.0,0,0,Property
+22196,21BU009268,2021/11/19 18:21:00+00,Male - M,White - W,38.0,Petit Larceny from a Motor Vehicle 13 VSA 2502 23f,1.0,0,0,Property
+22218,21BU019596,2021/11/23 15:10:00+00,Male - M,White - W,38.0,Petit Larceny from a Motor Vehicle 13 VSA 2502 23f,0.0,0,0,Property
+21993,21BU016356,2021/09/30 12:00:00+00,Female - F,White - W,39.0,Petit Larceny from a Motor Vehicle 13 VSA 2502 23f,1.0,0,0,Property
+21309,21BU004282,2021/04/05 02:45:00+00,Male - M,White - W,37.0,Petit Larceny from a Building/Residence/Structure 13 VSA 2502 23h,0.0,0,0,Property
+21498,21BU007259,2021/06/07 00:00:00+00,Male - M,White - W,42.0,Petit Larceny from a Building/Residence/Structure 13 VSA 2502 23h,1.0,0,0,Property
+21714,21BU011632,2021/07/27 10:55:00+00,Male - M,White - W,42.0,Petit Larceny from a Building/Residence/Structure 13 VSA 2502 23h,1.0,0,0,Property
+21752,21BU012094,2021/08/03 10:50:00+00,Male - M,White - W,34.0,Petit Larceny from a Building/Residence/Structure 13 VSA 2502 23h,0.0,0,0,Property
+21889,21BU012367,2021/09/09 16:49:00+00,Male - M,White - W,26.0,Petit Larceny from a Building/Residence/Structure 13 VSA 2502 23h,1.0,0,0,Property
+22202,21BU019531,2021/11/20 15:10:00+00,Male - M,Asian - A,33.0,Petit Larceny from a Building/Residence/Structure 13 VSA 2502 23h,1.0,0,0,Property
+22292,21BU009199,2021/12/21 22:56:00+00,Male - M,White - W,42.0,Petit Larceny from a Building/Residence/Structure 13 VSA 2502 23h,0.0,0,0,Property
+21092,21BU000554,2021/01/14 15:00:00+00,Female - F,White - W,37.0,Petit Larceny from a Building/Residence/Structure 13 VSA 2502 23h,1.0,0,0,Property
+21345,21BU004933,2021/04/15 17:36:00+00,Female - F,White - W,32.0,Petit Larceny from a Building/Residence/Structure 13 VSA 2502 23h,1.0,0,0,Property
+21260,21BU003436,2021/03/19 20:30:00+00,Male - M,White - W,37.0,Persons Prohibited from Possessing Firearms 13 VSA 4017 520,1.0,0,0,Weapons
+21732,21BU011879,2021/07/30 18:35:00+00,Female - F,White - W,46.0,Persons Prohibited from Possessing Firearms 13 VSA 4017 520,0.0,0,0,Weapons
+21233,20BU020681,2021/03/10 10:41:00+00,Male - M,White - W,41.0,Operation Without Consent 23 VSA 1094(a) 90z,1.0,0,0,Property
+21246,21BU002729,2021/03/13 19:32:00+00,Male - M,Black or African American - B,27.0,Operation Without Consent 23 VSA 1094(a) 90z,1.0,0,0,Property
+21265,21BU003532,2021/03/21 19:55:00+00,Male - M,White - W,22.0,Operation Without Consent 23 VSA 1094(a) 90z,1.0,0,0,Property
+21751,21BU012094,2021/08/03 10:50:00+00,Male - M,White - W,34.0,Operation Without Consent 23 VSA 1094(a) 90z,0.0,0,0,Property
+21988,21BU016156,2021/09/29 11:30:00+00,Male - M,White - W,41.0,Operation Without Consent 23 VSA 1094(a) 90z,1.0,0,0,Property
+22009,21BU016619,2021/10/04 12:16:00+00,Male - M,Black or African American - B,20.0,Operation Without Consent 23 VSA 1094(a) 90z,1.0,0,0,Property
+22011,21BU016619,2021/10/04 12:17:00+00,Male - M,Black or African American - B,18.0,Operation Without Consent 23 VSA 1094(a) 90z,1.0,0,0,Property
+22120,21BU018183,2021/10/28 18:50:00+00,Female - F,White - W,38.0,Operation Without Consent 23 VSA 1094(a) 90z,1.0,0,0,Property
+21174,21BU002138,2021/02/21 14:55:00+00,Male - M,White - W,34.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,0.0,1,0,Property
+21226,21BU002838,2021/03/07 06:16:03+00,Male - M,White - W,15.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,1.0,1,0,Property
+21384,21BU005469,2021/04/30 14:32:00+00,Male - M,White - W,41.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,0.0,1,0,Property
+21477,20BU019819,2021/05/26 21:10:00+00,Male - M,White - W,37.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,1.0,1,0,Property
+21982,21BU015516,2021/09/28 12:30:00+00,Male - M,White - W,37.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,1.0,1,0,Property
+22066,21BU017228,2021/10/15 17:17:00+00,Male - M,White - W,31.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,1.0,1,0,Property
+22172,21BU018340,2021/11/12 18:00:00+00,Male - M,White - W,13.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,1.0,1,0,Property
+22236,21BU019864,2021/12/02 12:43:00+00,Male - M,White - W,31.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,1.0,1,0,Property
+22263,21BU020343,2021/12/09 19:00:00+00,Male - M,Black or African American - B,15.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,1.0,1,0,Property
+22333,21BU021409,2021/12/30 19:26:00+00,Male - M,White - W,46.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,1.0,1,0,Property
+21836,21BU013985,2021/08/30 16:55:02+00,Female - F,White - W,37.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,1.0,1,0,Property
+21992,21BU016243,2021/09/30 00:21:00+00,Female - F,White - W,39.0,Operation Without Consent - Aggravated 23 VSA 1094(B) 90z,1.0,1,0,Property
+21318,21BU003940,2021/04/08 17:38:00+00,Male - M,Black or African American - B,47.0,Obstruction of Justice 13 VSA 3015 90z,1.0,1,0,Other
+21554,21BU009296,2021/06/23 09:23:00+00,Male - M,Black or African American - B,36.0,Obstruction of Justice 13 VSA 3015 90z,0.0,1,0,Other
+21631,21BU010560,2021/07/11 14:50:00+00,Male - M,Black or African American - B,18.0,Obstruction of Justice 13 VSA 3015 90z,0.0,1,0,Other
+21195,21BU002438,2021/02/26 23:00:00+00,Male - M,Asian - A,31.0,Negligent Operation 23 VSA 1091(a) 90z,0.0,0,0,Driving
+21391,21BU005790,2021/05/01 23:10:00+00,Male - M,Asian - A,35.0,Negligent Operation 23 VSA 1091(a) 90z,1.0,0,0,Driving
+21635,21BU010322,2021/07/12 10:11:00+00,Male - M,Black or African American - B,23.0,Negligent Operation 23 VSA 1091(a) 90z,0.0,0,0,Driving
+21673,21BU011058,2021/07/18 21:31:36+00,Male - M,Black or African American - B,77.0,Negligent Operation 23 VSA 1091(a) 90z,1.0,0,0,Driving
+22026,21BU016737,2021/10/06 03:33:00+00,Male - M,White - W,27.0,Negligent Operation 23 VSA 1091(a) 90z,1.0,0,0,Driving
+22249,21BU020151,2021/12/04 10:48:00+00,Male - M,White - W,41.0,Negligent Operation 23 VSA 1091(a) 90z,1.0,0,0,Driving
+21331,21BU004767,2021/04/12 20:51:00+00,Female - F,White - W,52.0,Negligent Operation 23 VSA 1091(a) 90z,0.0,0,0,Driving
+21143,21BU001075,2021/02/09 16:30:00+00,Male - M,Black or African American - B,24.0,Lewd and Lascivious Conduct 13 VSA 2601 90z,1.0,1,0,Sexual Offense
+21315,20BU019620,2021/04/06 15:00:00+00,Male - M,White - W,25.0,Lewd and Lascivious Conduct 13 VSA 2601 90z,1.0,1,0,Sexual Offense
+21432,21BU005370,2021/05/17 12:43:00+00,Male - M,Black or African American - B,43.0,Lewd and Lascivious Conduct 13 VSA 2601 90z,0.0,1,0,Sexual Offense
+21737,21BU011943,2021/07/31 15:45:00+00,Male - M,Black or African American - B,27.0,Lewd and Lascivious Conduct 13 VSA 2601 90z,1.0,1,0,Sexual Offense
+21775,21BU012596,2021/08/10 22:20:00+00,Male - M,White - W,44.0,Lewd and Lascivious Conduct 13 VSA 2601 90z,1.0,1,0,Sexual Offense
+21819,21BU013722,2021/08/26 08:33:00+00,Male - M,White - W,37.0,Lewd and Lascivious Conduct 13 VSA 2601 90z,1.0,1,0,Sexual Offense
+21506,21BU008251,2021/06/08 15:57:00+00,Female - F,Black or African American - B,32.0,Lewd and Lascivious Conduct 13 VSA 2601 90z,1.0,1,0,Sexual Offense
+21534,21BU008996,2021/06/18 20:35:00+00,Female - F,White - W,34.0,Lewd and Lascivious Conduct 13 VSA 2601 90z,1.0,1,0,Sexual Offense
+21366,21BU005043,2021/04/23 12:33:00+00,Male - M,White - W,38.0,"Leaving Scene of an Accident, with Bodily Injury Resulting 23 VSA 1128(B) 90z",1.0,1,0,Driving
+21634,21BU010322,2021/07/12 10:11:00+00,Male - M,Black or African American - B,23.0,"Leaving Scene of an Accident, with Bodily Injury Resulting 23 VSA 1128(B) 90z",1.0,1,0,Driving
+21313,21BU004204,2021/04/06 08:00:00+00,Female - F,White - W,33.0,"Leaving Scene of an Accident, with Bodily Injury Resulting 23 VSA 1128(B) 90z",1.0,1,0,Driving
+21173,21BU002138,2021/02/21 14:55:00+00,Male - M,White - W,34.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,0.0,0,0,Driving
+21310,21BU004316,2021/04/05 18:45:14+00,Male - M,White - W,58.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+21358,21BU004980,2021/04/22 13:10:00+00,Male - M,White - W,37.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+21570,21BU009580,2021/06/27 21:12:00+00,Male - M,White - W,58.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,0.0,0,0,Driving
+21672,21BU011058,2021/07/18 21:31:36+00,Male - M,Black or African American - B,77.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,0.0,0,0,Driving
+21713,21BU000459,2021/07/27 10:55:00+00,Male - M,Black or African American - B,59.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+21796,21BU012980,2021/08/16 03:20:00+00,Male - M,White - W,37.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+21849,21BU011449,2021/09/02 14:45:00+00,Male - M,White - W,49.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+22000,21BU016550,2021/10/03 11:37:14+00,Male - M,Black or African American - B,30.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+22130,21BU016045,2021/11/01 17:16:00+00,Male - M,Black or African American - B,45.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+22248,21BU020151,2021/12/04 10:48:00+00,Male - M,White - W,41.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,0.0,0,0,Driving
+21504,21BU008188,2021/06/07 20:00:00+00,Female - F,White - W,19.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,0.0,0,0,Driving
+21544,21BU008858,2021/06/22 12:55:00+00,Female - F,White - W,57.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+21622,21BU010333,2021/07/08 10:19:49+00,Female - F,White - W,34.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+21843,21BU010548,2021/09/01 15:27:00+00,Female - F,Black or African American - B,52.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+21878,21BU014655,2021/09/07 19:00:00+00,Female - F,White - W,40.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+21991,21BU016336,2021/09/30 00:21:00+00,Female - F,White - W,39.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+22104,21BU017836,2021/10/27 10:38:00+00,Female - F,White - W,39.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+22330,21BU020633,2021/12/30 17:20:00+00,Female - F,White - W,23.0,Leaving Scene of an Accident 23 VSA 1128(a) 90z,1.0,0,0,Driving
+21805,21BU013510,2021/08/23 10:50:00+00,Male - M,White - W,30.0,Larceny from a Person 13 VSA 2503 23h,1.0,1,0,Property
+21880,21BU014392,2021/09/08 22:11:00+00,Female - F,White - W,35.0,Larceny from a Person 13 VSA 2503 23h,1.0,1,0,Property
+21475,21BU006852,2021/05/25 22:00:00+00,Male - M,White - W,37.0,Interference with Access to Emergency Services 13 VSA 1031 90z,0.0,0,0,Other
+21661,21BU010978,2021/07/17 05:48:00+00,Male - M,White - W,24.0,Interference with Access to Emergency Services 13 VSA 1031 90z,0.0,0,0,Other
+21823,21BU013783,2021/08/26 23:48:00+00,Male - M,White - W,44.0,Interference with Access to Emergency Services 13 VSA 1031 90z,0.0,0,0,Other
+21997,21BU016468,2021/10/01 16:41:00+00,Male - M,White - W,63.0,Interference with Access to Emergency Services 13 VSA 1031 90z,0.0,0,0,Other
+22319,21BU021406,2021/12/28 22:50:03+00,Male - M,White - W,35.0,Interference with Access to Emergency Services 13 VSA 1031 90z,0.0,0,0,Other
+22323,21BU021389,2021/12/30 08:40:00+00,Male - M,White - W,43.0,Interference with Access to Emergency Services 13 VSA 1031 90z,0.0,0,0,Other
+22058,21BU017313,2021/10/14 14:00:00+00,Female - F,White - W,20.0,Interference with Access to Emergency Services 13 VSA 1031 90z,0.0,0,0,Other
+21117,21BU000882,2021/01/22 21:53:00+00,Male - M,White - W,29.0,Impeding Public Officers 13 VSA 3001 90z,0.0,1,0,Other
+21445,21BU006833,2021/05/18 21:14:00+00,Male - M,White - W,35.0,Impeding Public Officers 13 VSA 3001 90z,1.0,1,0,Other
+21660,21BU010978,2021/07/17 05:48:00+00,Male - M,White - W,24.0,Impeding Public Officers 13 VSA 3001 90z,0.0,1,0,Other
+21921,21BU015268,2021/09/15 18:51:00+00,Male - M,White - W,34.0,Impeding Public Officers 13 VSA 3001 90z,1.0,1,0,Other
+21945,21BU015652,2021/09/20 11:36:00+00,Male - M,Black or African American - B,20.0,Impeding Public Officers 13 VSA 3001 90z,0.0,1,0,Other
+22264,21BU020455,2021/12/10 05:56:00+00,Male - M,White - W,30.0,Impeding Public Officers 13 VSA 3001 90z,1.0,1,0,Other
+22269,21BU020596,2021/12/12 20:49:42+00,Male - M,Black or African American - B,47.0,Impeding Public Officers 13 VSA 3001 90z,1.0,1,0,Other
+21116,21BU000882,2021/01/22 21:53:00+00,Female - F,White - W,23.0,Impeding Public Officers 13 VSA 3001 90z,1.0,1,0,Other
+21330,21BU004767,2021/04/12 20:51:00+00,Female - F,White - W,52.0,Impeding Public Officers 13 VSA 3001 90z,1.0,1,0,Other
+22046,21BU017199,2021/10/12 19:00:00+00,Female - F,White - W,33.0,Impeding Public Officers 13 VSA 3001 90z,1.0,1,0,Other
+22131,21BU018428,2021/11/01 18:49:01+00,Female - F,White - W,25.0,Impeding Public Officers 13 VSA 3001 90z,1.0,1,0,Other
+22247,21BU020141,2021/12/04 02:30:00+00,Female - F,Black or African American - B,20.0,Impeding Public Officers 13 VSA 3001 90z,1.0,1,0,Other
+21163,21BU002132,2021/02/20 14:53:00+00,Male - M,White - W,42.0,Identity Theft 13 VSA 2030 26f,0.0,1,0,Financial
+21189,21BU002245,2021/02/24 11:17:08+00,Male - M,Black or African American - B,15.0,Identity Theft 13 VSA 2030 26f,1.0,1,0,Financial
+21204,21BU000803,2021/02/28 14:05:00+00,Male - M,White - W,30.0,Identity Theft 13 VSA 2030 26f,1.0,1,0,Financial
+21213,21BU002622,2021/03/03 12:06:39+00,Male - M,Black or African American - B,47.0,Identity Theft 13 VSA 2030 26f,1.0,1,0,Financial
+21216,21BU002245,2021/03/04 17:27:10+00,Male - M,White - W,15.0,Identity Theft 13 VSA 2030 26f,1.0,1,0,Financial
+21683,21BU010768,2021/07/20 15:09:52+00,Male - M,White - W,37.0,Identity Theft 13 VSA 2030 26f,1.0,1,0,Financial
+22082,21BU009966,2021/10/19 10:40:00+00,Male - M,White - W,28.0,Identity Theft 13 VSA 2030 26f,1.0,1,0,Financial
+22216,21BU015466,2021/11/23 14:30:00+00,Male - M,White - W,38.0,Identity Theft 13 VSA 2030 26f,1.0,1,0,Financial
+22217,21BU019596,2021/11/23 15:10:00+00,Male - M,White - W,38.0,Identity Theft 13 VSA 2030 26f,1.0,1,0,Financial
+21396,21BU005515,2021/05/03 11:55:24+00,Female - F,White - W,27.0,Identity Theft 13 VSA 2030 26f,1.0,1,0,Financial
+22302,21BU021058,2021/12/24 15:14:34+00,Female - F,White - W,53.0,Identity Theft 13 VSA 2030 26f,1.0,1,0,Financial
+21743,21BU011928,2021/08/01 12:00:00+00,Male - M,White - W,33.0,Hate Motivated Crime (Misdemeanor) 13 VSA 1455 90z,0.0,0,0,Other
+21099,21BU000159,2021/01/17 19:09:00+00,Male - M,White - W,42.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+21268,21BU003549,2021/03/22 08:31:15+00,Male - M,White - W,36.0,Grand Larceny 13 VSA 2501 23h,0.0,1,0,Property
+21307,21BU003401,2021/04/02 16:12:42+00,Male - M,White - W,37.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+21422,21BU005457,2021/05/14 11:00:00+00,Male - M,White - W,42.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+21556,21BU009300,2021/06/23 10:00:00+00,Male - M,White - W,41.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+21555,21BU009300,2021/06/23 10:00:00+00,Male - M,White - W,42.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+21803,21BU013418,2021/08/22 15:57:00+00,Male - M,White - W,22.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+22064,21BU017350,2021/10/15 16:47:00+00,Male - M,White - W,31.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+22144,21BU018551,2021/11/03 15:36:00+00,Male - M,White - W,42.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+21873,21BU013942,2021/09/04 14:45:03+00,Female - F,White - W,35.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+21950,21BU014778,2021/09/20 13:00:00+00,Female - F,Black or African American - B,43.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+22133,21BU009310,2021/11/02 12:00:00+00,Female - F,White - W,39.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+22135,21BU009534,2021/11/02 12:38:00+00,Female - F,White - W,39.0,Grand Larceny 13 VSA 2501 23h,1.0,1,0,Property
+22186,21BU019089,2021/11/17 08:30:00+00,Female - F,White - W,35.0,Grand Larceny 13 VSA 2501 23h,0.0,1,0,Property
+22073,21BU015087,2021/10/16 17:54:00+00,Female - F,White - W,41.0,Forgery/Counterfeit 13 VSA 1801 250,1.0,1,0,Financial
+22222,21BU019670,2021/11/24 11:57:00+00,Female - F,White - W,36.0,Forgery/Counterfeit 13 VSA 1801 250,1.0,1,0,Financial
+21408,21BU006150,2021/05/08 16:25:00+00,Male - M,White - W,46.0,False Information to a Police Officer 13 VSA 1754 90z,1.0,0,0,Other
+21549,21BU009296,2021/06/23 09:23:00+00,Male - M,Black or African American - B,36.0,False Information to a Police Officer 13 VSA 1754 90z,0.0,0,0,Other
+22321,21BU021418,2021/12/29 02:49:00+00,Male - M,White - W,64.0,False Information to a Police Officer 13 VSA 1754 90z,1.0,0,0,Other
+22328,21BU020141,2021/12/30 13:48:00+00,Male - M,Black or African American - B,19.0,False Information to a Police Officer 13 VSA 1754 90z,0.0,0,0,Other
+21389,21BU003675,2021/05/01 15:47:00+00,Female - F,White - W,20.0,False Information to a Police Officer 13 VSA 1754 90z,1.0,0,0,Other
+21535,21BU009017,2021/06/19 03:30:00+00,Female - F,White - W,27.0,False Information to a Police Officer 13 VSA 1754 90z,0.0,0,0,Other
+22166,21BU019070,2021/11/11 18:40:00+00,Female - F,White - W,37.0,False Information to a Police Officer 13 VSA 1754 90z,0.0,0,0,Other
+21390,21BU005790,2021/05/01 23:10:00+00,Male - M,Asian - A,35.0,Excessive Speed 23 VSA 1097 90z,0.0,0,0,Driving
+22078,21BU017500,2021/10/18 18:28:57+00,Male - M,White - W,18.0,Excessive Speed 23 VSA 1097 90z,0.0,0,0,Driving
+21194,21BU002438,2021/02/26 23:00:00+00,Male - M,Asian - A,31.0,Eluding a Police Officer - Misdemeanor 23 VSA 1133(B)(1) 90z,0.0,0,0,Driving
+21671,21BU011058,2021/07/18 21:31:36+00,Male - M,Black or African American - B,77.0,Eluding a Police Officer - Misdemeanor 23 VSA 1133(B)(1) 90z,0.0,0,0,Driving
+21867,21BU014390,2021/09/04 04:47:46+00,Male - M,Black or African American - B,24.0,Eluding a Police Officer - Misdemeanor 23 VSA 1133(B)(1) 90z,0.0,0,0,Driving
+22165,21BU019070,2021/11/11 18:40:00+00,Female - F,White - W,37.0,"Drugs - Transportation of Alcohol, Tobacco, or Regulated Drugs into Places of Detention 18 VSA 4249 35a",0.0,0,0,Drugs
+22051,21BU014261,2021/10/13 09:50:00+00,Male - M,White - W,49.0,"Drugs - Methamphetamine, Sale >2.5 Gm 18 VSA 4234a(B)(2) 35a",1.0,1,0,Drugs
+21512,21BU008468,2021/06/10 17:54:00+00,Male - M,White - W,38.0,"Drugs - Methamphetamine, Sale -Misdemeanor 18 VSA 4234a(B)(1) 35a",0.0,0,0,Drugs
+22111,21BU013143,2021/10/28 07:03:00+00,Male - M,Black or African American - B,64.0,"Drugs - Methamphetamine, Sale -Misdemeanor 18 VSA 4234a(B)(1) 35a",0.0,0,0,Drugs
+21511,21BU008468,2021/06/10 17:54:00+00,Male - M,White - W,38.0,"Drugs - Methamphetamine, Possession >2.5 Gm 18 VSA 4234a(a)(2) 35a",1.0,1,0,Drugs
+21653,21BU010860,2021/07/15 15:32:00+00,Male - M,White - W,45.0,"Drugs - Methamphetamine, Possession >2.5 Gm 18 VSA 4234a(a)(2) 35a",1.0,1,0,Drugs
+22050,21BU014261,2021/10/13 09:50:00+00,Male - M,White - W,49.0,"Drugs - Methamphetamine, Possession >2.5 Gm 18 VSA 4234a(a)(2) 35a",0.0,1,0,Drugs
+22167,21BU019070,2021/11/11 18:40:00+00,Female - F,White - W,37.0,"Drugs - Methamphetamine, Possession >2.5 Gm 18 VSA 4234a(a)(2) 35a",0.0,1,0,Drugs
+21136,21BU000221,2021/02/06 14:00:00+00,Male - M,White - W,35.0,"Drugs - Methamphetamine, Possession -Misdemeanor 18 VSA 4234a(a)(1) 35a",0.0,0,0,Drugs
+22061,21BU017359,2021/10/15 12:27:00+00,Male - M,White - W,38.0,"Drugs - Methamphetamine, Possession -Misdemeanor 18 VSA 4234a(a)(1) 35a",0.0,0,0,Drugs
+21609,21BU010237,2021/07/06 18:20:00+00,Male - M,Black or African American - B,21.0,"Drugs - Heroin, Trafficking 18 VSA 4233(C) 35a",1.0,1,0,Drugs
+21365,21BU003436,2021/04/23 00:00:00+00,Male - M,White - W,38.0,"Drugs - Heroin, Possession (Misdemeanor) 18 VSA 4233(a)(1) 35a",1.0,0,0,Drugs
+21510,21BU008468,2021/06/10 17:54:00+00,Male - M,White - W,38.0,"Drugs - Heroin, Possession (Misdemeanor) 18 VSA 4233(a)(1) 35a",0.0,0,0,Drugs
+21090,19BU027036,2021/01/13 18:00:00+00,Male - M,Black or African American - B,23.0,Drugs - Fentanyl - Selling or Dispensing/Trafficking or Transporting into State 18 VSA 4233(a) 35a,1.0,1,0,Drugs
+21756,21BU012232,2021/08/04 09:15:00+00,Male - M,White - W,38.0,Drugs - Fentanyl - Selling or Dispensing/Trafficking or Transporting into State 18 VSA 4233(a) 35a,1.0,1,0,Drugs
+22110,21BU013143,2021/10/28 07:03:00+00,Male - M,Black or African American - B,64.0,Drugs - Fentanyl - Selling or Dispensing/Trafficking or Transporting into State 18 VSA 4233(a) 35a,1.0,1,0,Drugs
+21406,21BU006073,2021/05/07 22:57:28+00,Female - F,White - W,27.0,Drugs - Fentanyl - Selling or Dispensing/Trafficking or Transporting into State 18 VSA 4233(a) 35a,1.0,1,0,Drugs
+21591,21BU007365,2021/07/02 11:00:00+00,Female - F,White - W,35.0,Drugs - Fentanyl - Selling or Dispensing/Trafficking or Transporting into State 18 VSA 4233(a) 35a,1.0,1,0,Drugs
+22076,21BU017577,2021/10/18 03:52:00+00,Female - F,White - W,32.0,Drugs - Fentanyl - Selling or Dispensing/Trafficking or Transporting into State 18 VSA 4233(a) 35a,1.0,1,0,Drugs
+22238,21BU007890,2021/12/02 12:50:00+00,Female - F,White - W,34.0,Drugs - Fentanyl - Selling or Dispensing/Trafficking or Transporting into State 18 VSA 4233(a) 35a,1.0,1,0,Drugs
+21601,21BU010071,2021/07/04 10:30:00+00,Male - M,White - W,56.0,"Drugs - Depressant, Stimulant, and Narcotic Possession Misdemeanor 18 VSA 4234(a)(1) 35a",0.0,0,0,Drugs
+21730,21BU010443,2021/07/30 11:00:00+00,Male - M,White - W,52.0,"Drugs - Depressant, Stimulant, and Narcotic Possession Misdemeanor 18 VSA 4234(a)(1) 35a",0.0,0,0,Drugs
+22164,21BU019070,2021/11/11 18:40:00+00,Female - F,White - W,37.0,"Drugs - Depressant, Stimulant, and Narcotic Possession Misdemeanor 18 VSA 4234(a)(1) 35a",0.0,0,0,Drugs
+21452,21BU006956,2021/05/20 05:18:00+00,Male - M,Black or African American - B,20.0,"Drugs - Depressant, Stimulant, and Narcotic Possessing >1,000x Dose 18 VSA 4234(B)(4) 35a",0.0,1,0,Drugs
+21729,21BU010443,2021/07/30 11:00:00+00,Male - M,White - W,52.0,"Drugs - Cocaine, Sale <2.5 Gm 18 VSA 4231(B)(1) 35a",1.0,1,0,Drugs
+21590,21BU007365,2021/07/02 11:00:00+00,Female - F,White - W,35.0,"Drugs - Cocaine, Sale <2.5 Gm 18 VSA 4231(B)(1) 35a",0.0,1,0,Drugs
+21589,21BU007365,2021/07/02 11:00:00+00,Female - F,White - W,35.0,"Drugs - Cocaine, Possession >25 Gm 18 VSA 4231(a)(1) 35a",0.0,1,0,Drugs
+21421,21BU006488,2021/05/14 06:14:00+00,Male - M,Black or African American - B,20.0,"Drugs - Cocaine, Possession  >2.5 Gm 18 VSA 4231(a)(1) 35a",1.0,1,0,Drugs
+21728,21BU010443,2021/07/30 11:00:00+00,Male - M,White - W,52.0,"Drugs - Cocaine, Possession  >2.5 Gm 18 VSA 4231(a)(1) 35a",0.0,1,0,Drugs
+21866,21BU014390,2021/09/04 04:47:46+00,Male - M,Black or African American - B,24.0,"Drugs - Cocaine, Possession  >2.5 Gm 18 VSA 4231(a)(1) 35a",1.0,1,0,Drugs
+21311,21BU004273,2021/04/05 19:50:56+00,Male - M,Black or African American - B,26.0,Driving with a Criminally Suspended License 23 VSA 674 90z,1.0,0,0,Driving
+21368,21BU005043,2021/04/23 12:33:00+00,Male - M,White - W,38.0,Driving with a Criminally Suspended License 23 VSA 674 90z,0.0,0,0,Driving
+21571,21BU009580,2021/06/27 21:12:00+00,Male - M,White - W,58.0,Driving with a Criminally Suspended License 23 VSA 674 90z,0.0,0,0,Driving
+21831,21BU013961,2021/08/29 20:50:00+00,Male - M,Asian - A,33.0,Driving with a Criminally Suspended License 23 VSA 674 90z,1.0,0,0,Driving
+22271,21BU020596,2021/12/12 20:49:42+00,Male - M,Black or African American - B,47.0,Driving with a Criminally Suspended License 23 VSA 674 90z,0.0,0,0,Driving
+21314,21BU004204,2021/04/06 08:00:00+00,Female - F,White - W,33.0,Driving with a Criminally Suspended License 23 VSA 674 90z,0.0,0,0,Driving
+21617,21BU010275,2021/07/07 11:59:00+00,Female - F,White - W,40.0,Driving with a Criminally Suspended License 23 VSA 674 90z,1.0,0,0,Driving
+21132,21BU001381,2021/02/04 03:10:00+00,Male - M,White - W,26.0,Driving with a Criminally Suspended License 23 VSA 674,0.0,0,0,Driving
+21134,21BU001428,2021/02/04 16:30:00+00,Male - M,White - W,26.0,Driving with a Criminally Suspended License 23 VSA 674,1.0,0,0,Driving
+21158,21BU002113,2021/02/20 08:02:00+00,Male - M,White - W,41.0,Driving with a Criminally Suspended License 23 VSA 674,1.0,0,0,Driving
+21177,21BU002138,2021/02/21 14:55:00+00,Male - M,White - W,34.0,Driving with a Criminally Suspended License 23 VSA 674,0.0,0,0,Driving
+21196,21BU002438,2021/02/26 23:00:00+00,Male - M,Asian - A,31.0,Driving with a Criminally Suspended License 23 VSA 674,0.0,0,0,Driving
+21288,21BU003891,2021/03/28 02:00:00+00,Male - M,White - W,37.0,Driving with a Criminally Suspended License 23 VSA 674,1.0,0,0,Driving
+21328,21BU003893,2021/04/11 11:13:27+00,Male - M,White - W,58.0,Driving with a Criminally Suspended License 23 VSA 674,1.0,0,0,Driving
+21357,21BU005218,2021/04/21 13:45:00+00,Male - M,White - W,54.0,Driving with a Criminally Suspended License 23 VSA 674,1.0,0,0,Driving
+21392,21BU005790,2021/05/01 23:10:00+00,Male - M,Asian - A,35.0,Driving with a Criminally Suspended License 23 VSA 674,0.0,0,0,Driving
+21430,21BU006694,2021/05/16 21:25:00+00,Male - M,White - W,39.0,Driving with a Criminally Suspended License 23 VSA 674,1.0,0,0,Driving
+21496,21BU008105,2021/06/06 13:35:00+00,Male - M,White - W,37.0,Driving with a Criminally Suspended License 23 VSA 674,1.0,0,0,Driving
+21603,21BU010071,2021/07/04 10:30:00+00,Male - M,White - W,56.0,Driving with a Criminally Suspended License 23 VSA 674,0.0,0,0,Driving
+21626,21BU010532,2021/07/10 23:24:00+00,Male - M,Black or African American - B,41.0,Driving with a Criminally Suspended License 23 VSA 674,1.0,0,0,Driving
+21636,21BU010322,2021/07/12 10:11:00+00,Male - M,Black or African American - B,23.0,Driving with a Criminally Suspended License 23 VSA 674,0.0,0,0,Driving
+21745,21BU012100,2021/08/02 18:20:00+00,Male - M,White - W,26.0,Driving with a Criminally Suspended License 23 VSA 674,1.0,0,0,Driving
+21868,21BU014390,2021/09/04 04:47:46+00,Male - M,Black or African American - B,24.0,Driving with a Criminally Suspended License 23 VSA 674,0.0,0,0,Driving
+21909,21BU015049,2021/09/12 22:44:00+00,Male - M,Black or African American - B,21.0,Driving with a Criminally Suspended License 23 VSA 674,0.0,0,0,Driving
+21947,21BU015652,2021/09/20 11:36:00+00,Male - M,Black or African American - B,20.0,Driving with a Criminally Suspended License 23 VSA 674,1.0,0,0,Driving
+22237,21BU019864,2021/12/02 12:43:00+00,Male - M,White - W,31.0,Driving with a Criminally Suspended License 23 VSA 674,0.0,0,0,Driving
+21272,21BU003618,2021/03/23 12:30:00+00,Female - F,White - W,53.0,Driving with a Criminally Suspended License 23 VSA 674,1.0,0,0,Driving
+21333,21BU004767,2021/04/12 20:51:00+00,Female - F,White - W,52.0,Driving with a Criminally Suspended License 23 VSA 674,0.0,0,0,Driving
+21676,21BU011127,2021/07/20 09:28:32+00,Male - M,White - W,29.0,Driving with a Criminally Suspended License - 3rd or Subsequent Offense Within 2 Years After 12/01/16 23 VSA 674(a)(2),1.0,0,0,Driving
+21193,21BU002438,2021/02/26 23:00:00+00,Male - M,Asian - A,31.0,Driving Under the Influence - Second and Subsequent Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21248,21BU003201,2021/03/15 01:21:54+00,Male - M,Asian - A,35.0,Driving Under the Influence - Second and Subsequent Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21338,21BU004832,2021/04/13 21:36:00+00,Male - M,Black or African American - B,51.0,Driving Under the Influence - Second and Subsequent Offense 23 VSA 1201 90d,1.0,0,0,Driving
+22068,21BU017440,2021/10/16 00:54:00+00,Male - M,Asian - A,26.0,Driving Under the Influence - Second and Subsequent Offense 23 VSA 1201 90d,1.0,0,0,Driving
+22124,21BU018373,2021/10/30 23:22:00+00,Male - M,Asian - A,34.0,Driving Under the Influence - Second and Subsequent Offense 23 VSA 1201 90d,1.0,0,0,Driving
+22177,21BU019221,2021/11/14 02:29:00+00,Male - M,Asian - A,38.0,Driving Under the Influence - Second and Subsequent Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21139,21BU001542,2021/02/07 00:08:00+00,Male - M,Black or African American - B,21.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21200,21BU002468,2021/02/27 20:53:00+00,Male - M,White - W,40.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,0.0,0,0,Driving
+21253,21BU003328,2021/03/17 20:34:00+00,Male - M,Asian - A,37.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21364,21BU005285,2021/04/22 17:59:00+00,Male - M,Black or African American - B,27.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21387,21BU005747,2021/05/01 06:00:00+00,Male - M,Black or African American - B,19.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,0.0,0,0,Driving
+21398,21BU005892,2021/05/03 21:10:00+00,Male - M,White - W,27.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21457,21BU007029,2021/05/20 23:00:00+00,Male - M,Black or African American - B,31.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21458,21BU007029,2021/05/20 23:08:00+00,Male - M,White - W,23.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21461,21BU007122,2021/05/22 00:22:00+00,Male - M,Black or African American - B,21.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21785,21BU012820,2021/08/12 20:46:00+00,Male - M,White - W,28.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21899,21BU014909,2021/09/11 01:28:00+00,Male - M,Black or African American - B,27.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21907,21BU015049,2021/09/12 22:44:00+00,Male - M,Black or African American - B,21.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+22122,21BU018330,2021/10/30 03:00:00+00,Male - M,White - W,26.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+22180,21BU019257,2021/11/14 23:30:00+00,Male - M,Asian - A,22.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21150,21BU001769,2021/02/11 18:37:00+00,Female - F,White - W,42.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21473,21BU007364,2021/05/25 17:15:00+00,Female - F,White - W,41.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21666,21BU011030,2021/07/18 02:50:00+00,Female - F,American Indian or Alaska Native - I,22.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+22176,21BU019201,2021/11/13 18:39:00+00,Female - F,White - W,30.0,Driving Under the Influence - First Offense 23 VSA 1201 90d,1.0,0,0,Driving
+21516,21BU008644,2021/06/13 04:29:00+00,Male - M,White - W,36.0,Driving Under the Influence - Drugs 23 VSA 1201(a)(3) 90d,1.0,0,0,Driving
+21600,21BU010071,2021/07/04 10:30:00+00,Male - M,White - W,56.0,Driving Under the Influence - Drugs 23 VSA 1201(a)(3) 90d,0.0,0,0,Driving
+21426,21BU006199,2021/05/15 13:36:00+00,Male - M,White - W,35.0,Driving Under the Influence - Criminal Refusal 23 VSA 1202 90d,0.0,0,0,Driving
+21569,21BU009580,2021/06/27 21:12:00+00,Male - M,White - W,58.0,Driving Under the Influence - Criminal Refusal 23 VSA 1202 90d,1.0,0,0,Driving
+22070,21BU017450,2021/10/16 04:45:00+00,Male - M,Black or African American - B,41.0,Driving Under the Influence - Criminal Refusal 23 VSA 1202 90d,1.0,0,0,Driving
+22071,21BU017450,2021/10/16 04:45:00+00,Male - M,Black or African American - B,41.0,Driving Under the Influence - Criminal Refusal 23 VSA 1202 90d,0.0,0,0,Driving
+22183,21BU019306,2021/11/15 22:54:00+00,Male - M,White - W,35.0,Driving Under the Influence - Criminal Refusal 23 VSA 1202 90d,1.0,0,0,Driving
+21503,21BU008188,2021/06/07 20:00:00+00,Female - F,White - W,19.0,Driving Under the Influence - Criminal Refusal 23 VSA 1202 90d,1.0,0,0,Driving
+21146,20BU021664,2021/02/10 10:00:00+00,Male - M,White - W,37.0,Disorderly Conduct by Phone or Electronic Communication 13 VSA 1027 90c,1.0,0,0,Disorder
+21207,21BU002536,2021/03/01 21:57:00+00,Male - M,White - W,24.0,Disorderly Conduct by Phone or Electronic Communication 13 VSA 1027 90c,1.0,0,0,Disorder
+21584,21BU009797,2021/06/30 18:48:00+00,Male - M,Black or African American - B,26.0,Disorderly Conduct by Phone or Electronic Communication 13 VSA 1027 90c,1.0,0,0,Disorder
+22054,21BU016931,2021/10/13 21:07:00+00,Male - M,White - W,37.0,Disorderly Conduct by Phone or Electronic Communication 13 VSA 1027 90c,1.0,0,0,Disorder
+22213,21BU018650,2021/11/22 19:40:00+00,Male - M,White - W,36.0,Disorderly Conduct by Phone or Electronic Communication 13 VSA 1027 90c,1.0,0,0,Disorder
+22290,21BU020067,2021/12/21 17:29:00+00,Male - M,Black or African American - B,59.0,Disorderly Conduct by Phone or Electronic Communication 13 VSA 1027 90c,0.0,0,0,Disorder
+21185,20BU022889,2021/02/23 09:36:00+00,Female - F,White - W,25.0,Disorderly Conduct by Phone or Electronic Communication 13 VSA 1027 90c,1.0,0,0,Disorder
+21206,20BU022889,2021/03/01 17:07:00+00,Female - F,White - W,26.0,Disorderly Conduct by Phone or Electronic Communication 13 VSA 1027 90c,1.0,0,0,Disorder
+21057,21BU000058,2021/01/04 06:00:00+00,Transgender - T,White - W,62.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21056,21BU000047,2021/01/04 06:00:00+00,Transgender - T,White - W,62.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21114,21BU000882,2021/01/22 21:53:00+00,Male - M,White - W,29.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+21290,21BU003928,2021/03/29 12:15:00+00,Male - M,White - W,31.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+21453,21BU006959,2021/05/20 09:11:00+00,Male - M,White - W,33.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+21562,21BU009149,2021/06/24 12:12:00+00,Male - M,Asian - A,25.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+21581,21BU009769,2021/06/30 12:20:00+00,Male - M,Black or African American - B,26.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+21628,21BU010560,2021/07/11 14:50:00+00,Male - M,Black or African American - B,18.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+21632,21BU010559,2021/07/11 15:10:00+00,Male - M,Asian - A,41.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21641,21BU010725,2021/07/13 17:10:00+00,Male - M,Black or African American - B,26.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21644,21BU010742,2021/07/14 04:15:00+00,Male - M,Black or African American - B,26.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+21667,21BU011043,2021/07/18 15:19:00+00,Male - M,White - W,46.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+21687,21BU011194,2021/07/21 08:20:00+00,Male - M,White - W,44.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21738,21BU011954,2021/07/31 19:03:00+00,Male - M,White - W,25.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21762,21BU012411,2021/08/07 02:20:00+00,Male - M,White - W,24.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21827,21BU013884,2021/08/28 17:23:00+00,Male - M,Black or African American - B,54.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21828,21BU013884,2021/08/28 17:23:00+00,Male - M,White - W,56.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21862,21BU014376,2021/09/04 00:39:00+00,Male - M,Black or African American - B,34.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21864,21BU014386,2021/09/04 02:36:00+00,Male - M,White - W,38.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21872,21BU014401,2021/09/04 12:00:00+00,Male - M,White - W,46.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+21876,21BU014565,2021/09/07 00:10:44+00,Male - M,White - W,48.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+21902,21BU014970,2021/09/11 19:53:00+00,Male - M,White - W,31.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21906,21BU015008,2021/09/12 11:45:00+00,Male - M,White - W,38.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21919,21BU015192,2021/09/14 13:07:00+00,Male - M,Black or African American - B,45.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21954,21BU012411,2021/09/22 12:00:00+00,Male - M,Black or African American - B,18.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21973,21BU016061,2021/09/25 21:35:00+00,Male - M,White - W,31.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+22085,21BU017696,2021/10/20 10:00:00+00,Male - M,White - W,18.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+22086,21BU017780,2021/10/20 19:59:00+00,Male - M,White - W,30.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+22121,21BU018252,2021/10/28 21:40:00+00,Male - M,Black or African American - B,28.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+22225,21BU019760,2021/11/26 01:19:28+00,Male - M,Black or African American - B,55.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+22250,21BU020196,2021/12/05 02:36:00+00,Male - M,White - W,21.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+22268,21BU020596,2021/12/12 20:49:42+00,Male - M,Black or African American - B,47.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+22278,21BU020906,2021/12/17 19:55:00+00,Male - M,Asian - A,33.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+22300,21BU021181,2021/12/23 15:15:00+00,Male - M,Black or African American - B,26.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+22316,21BU021399,2021/12/28 18:11:00+00,Male - M,Black or African American - B,39.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+21280,21BU003745,2021/03/25 16:45:00+00,Female - F,White - W,36.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21322,21BU004543,2021/04/09 15:45:00+00,Female - F,White - W,32.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21525,21BU008826,2021/06/15 19:00:00+00,Female - F,White - W,30.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21612,21BU010259,2021/07/07 08:15:00+00,Female - F,White - W,27.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21616,21BU010274,2021/07/07 11:55:00+00,Female - F,White - W,27.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21627,21BU010559,2021/07/11 14:48:34+00,Female - F,Asian - A,24.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21664,21BU011024,2021/07/18 01:12:00+00,Female - F,White - W,21.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+22024,21BU016733,2021/10/06 00:02:00+00,Female - F,White - W,44.0,Disorderly Conduct - All Other 13 VSA 1026 90c,0.0,0,0,Disorder
+22201,21BU019509,2021/11/20 02:30:00+00,Female - F,Black or African American - B,20.0,Disorderly Conduct - All Other 13 VSA 1026 90c,1.0,0,0,Disorder
+21142,21BU001075,2021/02/09 16:30:00+00,Male - M,Black or African American - B,24.0,Disclosure of Sexually Explicit Images w/o Consent 13 VSA 2606 370,0.0,0,0,Sexual Offense
+21624,21BU010373,2021/07/08 20:00:00+00,Male - M,White - W,44.0,Disclosure of Sexually Explicit Images w/o Consent 13 VSA 2606 370,1.0,0,0,Sexual Offense
+21548,21BU009296,2021/06/23 09:23:00+00,Male - M,Black or African American - B,36.0,Cruelty to Children by One Over 16 13 VSA 1304 90z,0.0,0,0,Other
+22027,21BU016706,2021/10/06 15:21:00+00,Male - M,White - W,42.0,Cruelty to Children by One Over 16 13 VSA 1304 90z,0.0,0,0,Other
+22241,21BU020079,2021/12/03 07:43:07+00,Male - M,Asian - A,31.0,Cruelty to Children by One Over 16 13 VSA 1304 90z,1.0,0,0,Other
+21724,21BU011765,2021/07/29 18:07:00+00,Female - F,White - W,40.0,Cruelty to Children by One Over 16 13 VSA 1304 90z,1.0,0,0,Other
+21162,21BU002132,2021/02/20 14:53:00+00,Male - M,White - W,42.0,Credit Card/ATM Fraud 9 VSA 4043 26b,0.0,0,0,Financial
+21212,21BU002622,2021/03/03 12:06:39+00,Male - M,Black or African American - B,47.0,Credit Card/ATM Fraud 9 VSA 4043 26b,0.0,0,0,Financial
+21888,21BU012367,2021/09/09 16:49:00+00,Male - M,White - W,26.0,Credit Card/ATM Fraud 9 VSA 4043 26b,0.0,0,0,Financial
+22081,21BU009966,2021/10/19 10:40:00+00,Male - M,White - W,28.0,Credit Card/ATM Fraud 9 VSA 4043 26b,0.0,0,0,Financial
+22170,21BU018685,2021/11/12 14:39:40+00,Male - M,White - W,30.0,Credit Card/ATM Fraud 9 VSA 4043 26b,1.0,0,0,Financial
+22160,21BU018685,2021/11/11 10:20:18+00,Female - F,White - W,29.0,Credit Card/ATM Fraud 9 VSA 4043 26b,0.0,0,0,Financial
+21078,21BU000389,2021/01/10 17:44:00+00,Male - M,Black or African American - B,19.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21108,21BU000589,2021/01/22 00:00:00+00,Male - M,White - W,37.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21267,21BU003549,2021/03/22 08:31:15+00,Male - M,White - W,36.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21283,20BU023023,2021/03/26 18:40:00+00,Male - M,White - W,34.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21308,21BU004282,2021/04/05 02:45:00+00,Male - M,White - W,37.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21383,21BU005469,2021/04/30 14:32:00+00,Male - M,White - W,41.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21533,21BU008337,2021/06/17 17:17:00+00,Male - M,White - W,22.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21702,21BU011535,2021/07/25 20:14:00+00,Male - M,White - W,31.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21708,21BU010998,2021/07/26 12:46:00+00,Male - M,White - W,50.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21820,21BU013575,2021/08/26 12:51:00+00,Male - M,White - W,26.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21995,21BU016419,2021/10/01 00:02:00+00,Male - M,White - W,38.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22038,21BU016617,2021/10/11 08:59:00+00,Male - M,White - W,50.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22145,21BU015297,2021/11/04 09:00:00+00,Male - M,Black or African American - B,44.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22171,21BU019089,2021/11/12 14:45:00+00,Male - M,Black or African American - B,29.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22198,21BU019489,2021/11/19 19:52:00+00,Male - M,White - W,38.0,Burglary 13 VSA 1201 220,0.0,1,0,Property
+22205,21BU019560,2021/11/21 14:28:00+00,Male - M,White - W,58.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22208,21BU016747,2021/11/22 09:30:00+00,Male - M,White - W,36.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22214,21BU019630,2021/11/23 04:20:00+00,Male - M,White - W,38.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22219,21BU019683,2021/11/23 23:08:00+00,Male - M,White - W,38.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22254,21BU019860,2021/12/07 15:00:00+00,Male - M,White - W,51.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22275,21BU015506,2021/12/15 17:30:00+00,Male - M,White - W,14.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22287,21BU015506,2021/12/21 12:55:00+00,Male - M,Black or African American - B,15.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22308,21BU015506,2021/12/27 10:10:00+00,Male - M,Black or African American - B,15.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21205,21BU001626,2021/02/28 23:25:00+00,Female - F,White - W,22.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21677,21BU011125,2021/07/20 09:45:00+00,Female - F,Black or African American - B,32.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21721,21BU011772,2021/07/29 08:45:00+00,Female - F,White - W,39.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21821,21BU013575,2021/08/26 12:51:00+00,Female - F,White - W,30.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+22185,21BU019089,2021/11/17 08:30:00+00,Female - F,White - W,35.0,Burglary 13 VSA 1201 220,1.0,1,0,Property
+21130,21BU001328,2021/02/02 23:48:00+00,Male - M,White - W,38.0,Bad Checks 13 VSA 2022 90a,1.0,0,0,Financial
+22072,21BU015087,2021/10/16 17:54:00+00,Female - F,White - W,41.0,Bad Checks 13 VSA 2022 90a,0.0,0,0,Financial
+21071,21BU000274,2021/01/07 16:12:00+00,Male - M,Black or African American - B,19.0,Attempts (Misdemeanor) 13 VSA 9(C) 90z,0.0,0,0,Other
+21704,21BU011535,2021/07/25 20:14:00+00,Male - M,White - W,31.0,Attempts (Felony) 13 VSA 9(B) 90z,0.0,1,0,Other
+22200,21BU019489,2021/11/19 19:52:00+00,Male - M,White - W,38.0,Arson - 1st Degree 13 VSA 502 200,1.0,1,0,Property
+21885,21BU014761,2021/09/09 10:00:00+00,Transgender - T,White - W,39.0,Aggravated Disorderly Conduct 13 VSA 1026(a) 90c,1.0,0,0,Disorder
+21299,21BU004034,2021/03/31 03:53:42+00,Male - M,Black or African American - B,21.0,Aggravated Disorderly Conduct 13 VSA 1026(a) 90c,0.0,0,0,Disorder
+21415,21BU006196,2021/05/09 13:20:00+00,Male - M,White - W,25.0,Aggravated Disorderly Conduct 13 VSA 1026(a) 90c,1.0,0,0,Disorder
+21817,21BU013700,2021/08/25 18:30:00+00,Male - M,White - W,50.0,Aggravated Disorderly Conduct 13 VSA 1026(a) 90c,1.0,0,0,Disorder
+21861,21BU014134,2021/09/04 00:39:00+00,Male - M,Black or African American - B,34.0,Aggravated Disorderly Conduct 13 VSA 1026(a) 90c,1.0,0,0,Disorder
+21918,21BU015171,2021/09/14 11:10:00+00,Male - M,Black or African American - B,45.0,Aggravated Disorderly Conduct 13 VSA 1026(a) 90c,1.0,0,0,Disorder
+21943,21BU015652,2021/09/20 11:36:00+00,Male - M,Black or African American - B,20.0,Aggravated Disorderly Conduct 13 VSA 1026(a) 90c,0.0,0,0,Disorder
+22211,21BU016167,2021/11/22 14:43:00+00,Male - M,Black or African American - B,35.0,Aggravated Disorderly Conduct 13 VSA 1026(a) 90c,0.0,0,0,Disorder
+21339,21BU004853,2021/04/14 12:00:00+00,Female - F,White - W,45.0,Aggravated Disorderly Conduct 13 VSA 1026(a) 90c,1.0,0,0,Disorder
+22117,21BU018196,2021/10/28 11:32:00+00,Female - F,White - W,49.0,Aggravated Disorderly Conduct 13 VSA 1026(a) 90c,0.0,0,0,Disorder
+21160,21BU002132,2021/02/20 14:53:00+00,Male - M,White - W,42.0,Accessory Before the Fact 13 VSA 4 90z,1.0,0,0,Other
+21161,21BU002132,2021/02/20 14:53:00+00,Male - M,White - W,42.0,Accessory Before the Fact 13 VSA 4 90z,0.0,0,0,Other
+21835,21BU013985,2021/08/30 16:55:02+00,Male - M,White - W,49.0,Accessory Before the Fact 13 VSA 4 90z,1.0,0,0,Other
+22087,21BU015516,2021/10/21 14:34:00+00,Male - M,White - W,34.0,Accessory Before the Fact 13 VSA 4 90z,1.0,0,0,Other
+21705,21BU011535,2021/07/25 20:33:00+00,Female - F,White - W,40.0,Accessory Before the Fact 13 VSA 4 90z,1.0,0,0,Other
+22303,21BU021058,2021/12/24 21:03:02+00,Female - F,White - W,37.0,Accessory Before the Fact 13 VSA 4 90z,1.0,0,0,Other
