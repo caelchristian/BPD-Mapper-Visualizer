@@ -19,9 +19,6 @@ def create_app():
 
     app.register_blueprint(views, url_prefix='/')
     app.register_blueprint(auth, url_prefix='/')
-    # app.register_blueprint(auth_bp, url_prefix='/')
-    # app.register_blueprint(suggest_password_bp, url_prefix='/')
-    # app.register_blueprint(form_bp, url_prefix='/')
     
     from .models import User, Incident, Arrest
 
