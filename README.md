@@ -14,6 +14,8 @@ c) Allow user to query against any column using WHERE and list sample data.
 d) Allow for 2 queries that require a JOIN. 
 e) Allow visualizations for key metrics of your choice with at least two different types of plots.
 
+
+
 All call types:
 - 911 Hangup
 - Airport - AOA Perimeter Check
@@ -158,3 +160,20 @@ All call types:
 - Voyeurism
 - Weapons Offense
 - Welfare Check
+
+Deleting rows that don't share an incident_number
+```sql
+DELETE FROM Incidents WHERE incident_number IN
+(SELECT Incidents.incident_number 
+	FROM Incidents
+	LEFT JOIN Arrests 
+	ON Incidents.incident_number=Arrests.incident_number 
+	WHERE Arrests.incident_number IS NULL);
+	
+DELETE FROM Arrests WHERE incident_number IN
+(SELECT Arrests.incident_number 
+	FROM Arrests
+	LEFT JOIN Incidents 
+	ON Arrests.incident_number=Incidents.incident_number 
+	WHERE Incidents.incident_number IS NULL);
+```

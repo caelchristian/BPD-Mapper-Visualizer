@@ -4,7 +4,7 @@ from flask_login import UserMixin
 
 
 class User(db.Model, UserMixin):
-    __tablename__ = "Users"
+    __tablename__ = "user"
     
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(100), unique=True)
@@ -14,7 +14,7 @@ class User(db.Model, UserMixin):
     attempts = db.Column(db.Integer)
     
     
-class Arrest(db.Model):
+class Arrests(db.Model):
     __tablename__ = "Arrests"
     
     objectid = db.Column(db.Integer, primary_key=True)
@@ -30,9 +30,10 @@ class Arrest(db.Model):
     category = db.Column(db.Integer)
     
     
-class Incident(db.Model):
+class Incidents(db.Model):
+    __tablename__ = "Incidents"
     objectid = db.Column(db.Integer, primary_key=True)
-    incident_number = db.Column(db.String(20), unique=True)
+    incident_number = db.Column(db.Integer, unique=True)
     call_type = db.Column(db.String(50))
     call_type_group = db.Column(db.String(50))
     call_time = db.Column(db.String(20))
@@ -46,6 +47,15 @@ class Incident(db.Model):
     longitude = db.Column(db.String(12))
     district = db.Column(db.String(30))
     priority = db.Column(db.String(15))
+    
+    def __repr__(self) -> str:
+        return f"""
+    Incident("{self.objectid}","{self.incident_number}","{self.call_type}",
+    "{self.call_type_group}","{self.call_time}","{self.street}",
+    "{self.mental_health}","{self.mental_health}","{self.drug_related}",
+    "{self.dv_related}","{self.alcohol_related}","{self.areaname}",
+    "{self.latitude}","{self.longitude}","{self.district}","{self.priority}")
+    """
     
 # class Stop(db.Model):
 #     objectid = db.Column(db.Integer, primary_key=True)

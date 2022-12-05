@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="container pt-md-5">
+
+    <form method="POST">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col">
+                    <h3 class="text-center">Submit Police Incident</h3>
+                    
+                    <label>Call Type: (ex. Noise)</label>
+                    <input type="text" name="call_type"><br>
+
+                    <label for = "call_type_group">Call Type Group (ex. Quality of Life)</label>
+                    <input type="text" name="call_type_group"><br>
+
+                    <label for = "call_time">Call Time: (ex. 11:40:00)</label>
+                    <input type="text" name="call_time"><br>
+                    
+                    <label>Street:</label>
+                    <input type="text" name="street"><br>
+                    
+                    <!-- <label for = "call_origin">Call Origin:</label><br>
+                        911 <input type="radio" name="call_origin" value = "911"><br>
+                        In Person <input type="radio" name="call_origin" value = "in_person"><br>
+                        Officer/Radio <input type="radio" name="call_origin" value = "officer_radio"><br>
+                        Online Report <input type="radio" name="call_origin" value = "online"><br>
+                        Phone <input type="radio" name="call_origin" value = "phone"><br>
+                        Unknown <input type="radio" name="call_origin" value = "Unknown"><br><br> -->
+
+                    <label>Mental Health Related</label>
+                    <input type="checkbox" name="mental_health_related"><br>
+
+                    <label>Drug Related</label>
+                    <input type="checkbox" name="drug_related"><br>
+
+                    <label>Domestic Violence Related</label>
+                    <input type="checkbox" name="dv_related"><br>
+
+                    <label for = "alcohol_related">Alcohol Related </label>
+                    <input type="checkbox" name="alcohol_related"><br>
+
+                    <!-- <label for= "area">Area: </label>
+                    <select name = "area">
+                        <option value = "a">A</option>
+                        <option value = "b">B</option>
+                        <option value = "c">C</option>
+                        <option value = "d">D</option>
+                        <option value = "e">E</option>
+                        <option value = "airport">Airport</option>
+                        <option value = "unknown">Unknown</option>
+                    </select><br> -->
+
+                    <label for = "area_name">Area Name: </label>
+                    <input type="text" name="area_name"><br>
+
+                    <label for = "latitude">Latitude</label>
+                    <input type="text" name="latitude"><br>
+
+                    <label for = "longitude">Longitude</label>
+                    <input type="text" name="longitude"><br>
+
+                    <!-- <label for = "date">Date of incident: </label>
+                    <input type="date" name="date"><br> -->
+
+                    <label for = "district">District</label>
+                        <select name = "district">
+                        <option value = "Central">Central</option>
+                        <option value = "East">East</option>
+                        <option value = "North">North</option>
+                        <option value = "South">South</option>
+                        <option value = "unknown">Unknown</option>
+                    </select><br>
+
+                    <label for = "priority">Priority</label>
+                    <select name = "priority">
+                        <option name="priority" value="1">1<br>
+                        <option name="priority" value="2">2<br>
+                        <option name="priority" value="3">3<br>
+                        <option name="priority" value="NA">N/A<br>
+                    </select><br>
+
+                    <button type="submit" class="btn btn-primary" name="button">Submit</button>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

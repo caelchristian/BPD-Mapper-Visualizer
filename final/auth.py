@@ -125,7 +125,6 @@ def login():
                     if not os.path.isdir(f'final/static/{new_user.id}/'):
                         os.makedirs(f'final/static/{new_user.id}')
                     
-
                     # return to home
                     flash('Account created!', category='success')
                     return redirect(url_for('home.home'))

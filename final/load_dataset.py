@@ -17,15 +17,15 @@ def load_csv(filename, table_name):
         print(str(filename) + " file is empty! Cannot load empty dataset into a database.")
     else:
         # if database file has not been loaded/created, create DB file
-        if not (os.path.isfile("instance/credentials.db")):
+        if not (os.path.isfile("data.db")):
             # create a database file if one does not exist already
-            Path('instance.credentials.db').touch()
+            Path('data.db').touch()
         
         try:
             # create connections to instance/credentials.db
             # cursor is used to load data.
             # if db file doesn't exist, it is created
-            connection = sqlite3.connect('instance/credentials.db')
+            connection = sqlite3.connect('data.db')
             cursor = connection.cursor()
             
             # load dataset into a Pandas DataFrame
@@ -51,9 +51,9 @@ def load_csv(filename, table_name):
                 connection.close()
                 
 def main():
-    load_csv("data/Arrests.csv", "Arrests")
-    load_csv("data/Incidents.csv", "Incidents")
-    load_csv("data/Traffic Stops.csv", "Stops")
+    load_csv("data/Arrests.csv", "arrests")
+    load_csv("data/Incidents.csv", "incidents")
+    load_csv("data/Users.csv", "user")
     
 if __name__ == "__main__":
     main()
