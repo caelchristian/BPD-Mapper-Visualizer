@@ -24,124 +24,141 @@ def get_password():
 
 
 @views.route('/incident_form', methods=['GET', 'POST'])
-def form():
-    dict = {}
+def incident_form():
     table_name = "incidents"
     if request.method == 'POST':   
-        with Session(engine) as session:
-            
-            any_none_values = False
-            
-            for key, val in request.form.items():
-                temp = str(val)
-                parsed = temp[1 : len(temp) - 2]
-                print(temp)
-                dict[key] = "" + parsed
-                
-                # unchecked buttons are not keys in dict
-                # exclude submit button
-                if val == "" and key != "button":
-                    any_none_values = True
-                        
-            if not any_none_values:
-                        
-                conn = get_db_connection()
+        any_none_values = False
+        for key, val in request.form.items():
+            # unchecked buttons are not keys in dict
+            # exclude submit button
+            if val == "" and key != "button":
+                any_none_values = True
                     
-                # max objectid+1 is new object id
-                res = conn.execute("""SELECT * FROM incidents""")
-                # print(res.fetchall()) 
-                
-                res = conn.execute(f"""
-                            SELECT MAX(objectid)
+        if not any_none_values:
+            conn = get_db_connection()
+            res = conn.execute(f"""
+                        SELECT MAX(objectid)
+                        FROM {table_name}
+                        """)
+            # max objectid+1 is new object id
+            objectid = str(int(res.fetchone()[0] + 1))
+            
+            res = conn.execute(f"""
+                            SELECT MAX(incident_number)
                             FROM {table_name}
                             """)
-                
-                temp = str(res.fetchone()[0])
-                
-                # weird parsing thing
-                objectid = int(temp[1:len(temp)-2])
-                
-                res = conn.execute(f"""
-                                SELECT MAX(incident_number)
-                                FROM {table_name}
-                                """)
-
-                temp = str(res.fetchone()[0])
-                # weird parsing thing
-                incident_number = int(temp[1:len(temp)-2]) + 1
-                
-                # next incident number is max + 1
-                # print(res.fetchone())
-                # print(session)
+            # next incident number is max + 1
+            incident_number = str(int(res.fetchone()[0]) + 1)
+        
+            call_type = request.form.get("call_type")
+            call_type_group = request.form.get("call_type_group")
+            call_time = request.form.get("call_time")
+            street = request.form.get("street")
             
-                objectid = objectid,
-                incident_number = incident_number,
-                call_type = dict.get("call_type"),
-                call_type_group = dict.get("call_type_group"),
-                call_time = dict.get("call_time"),
-                street = dict.get("street"),
+            if request.form.get("mental_health_related") != None:
+                mental_health = 1
+            else:
+                mental_health = 0
                 
-                if dict.get("street") != None:
-                    mental_health = 1
-                else:
-                    mental_health = 0
-                    
-                if dict.get("drug_related") != None:
-                    drug_related = 1
-                else:
-                    drug_related = 0
-                    
-                if dict.get("dv_related") != None:
-                    dv_related = 1
-                else:
-                    dv_related = 0
-                    
-                if dict.get("alcohol_related") != None:
-                    alcohol_related = 1
-                else:
-                    alcohol_related = 0
-                    
-                areaname = dict.get("areaname"),
-                latitude = dict.get("latitude"),
-                longitude = dict.get("longitude"),
-                district = dict.get("district"),
-                priority = dict.get("district"),
+            if request.form.get("drug_related") != None:
+                drug_related = 1
+            else:
+                drug_related = 0
                 
-                print(objectid, str(incident_number), str(call_type),
-                    str(call_type_group), str(call_time), str(street),
-                    str(mental_health), str(drug_related), str(dv_related),
-                    str(alcohol_related), str(areaname), str(latitude),
-                    str(longitude), str(district), str(priority))
+            if request.form.get("dv_related") != None:
+                dv_related = 1
+            else:
+                dv_related = 0
                 
-                # print(res.fetchall())
-                c = conn.cursor()
-                conn.execute(f"INSERT INTO incidents VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
-                    (objectid, incident_number, call_type,
-                    call_type_group, call_time, street,
-                    mental_health, drug_related, dv_related,
-                    alcohol_related, areaname, latitude,
-                    longitude, district, priority))
+            if request.form.get("alcohol_related") != None:
+                alcohol_related = 1
+            else:
+                alcohol_related = 0
+                
+            areaname = request.form.get("area_name")
+            latitude = request.form.get("latitude")
+            longitude = request.form.get("longitude")
+            district = request.form.get("district")
+            priority = request.form.get("priority")
+            
+            # print(res.fetchall())
+            c = conn.cursor()
+            conn.execute(f"INSERT INTO incidents VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                (objectid, incident_number, call_type,
+                call_type_group, call_time, street,
+                mental_health, drug_related, dv_related,
+                alcohol_related, areaname, latitude,
+                longitude, district, priority))
+            conn.commit()
+            flash("Successfully inserted into table!", category="info")
+        else:
+            flash("One or more text box values are empty", category="error")
 
-                
-                conn.commit()
-                            
-                print(dict)
-                    # incident_dict["call type"] = request.form.get("call_type")
-                    # incident_dict["call type group"] = request.form.get("call_type_group")
-                    # incident_dict["call time"] = request.form.get("call_time")
-                    # incident_dict["call type"] = request.form.get("call_type")
-                    # incident_dict["mental health related"] = request.form.get("mental_health_related")
-                    # incident_dict["drug related"] = request.form.get("drug_related")
-                    # incident_dict["domestic violence related"] = request.form.get("dv_related")
-                    # incident_dict["alcohol related"] = request.form.get("alcohol_related")
-                    # incident_dict["area"] = request.form.get("area")
-                    # incident_dict["area name"] = request.form.get("area_name")
-                    # incident_dict["area name"] = request.form.get("area_name")
-            # else:
-            #     flash("One or more entered values were empty")
-                    
-                
     return render_template("incident_form.html", user=current_user)
+
+
+@views.route('/arrest_form', methods=['GET', 'POST'])
+def form():
+    table_name = "arrests"
+    if request.method == 'POST':   
+        any_none_values = False
+        for key, val in request.form.items():
+            # unchecked buttons are not keys in dict
+            # exclude submit button
+            print(key,":",val)
+            if val == "" and key != "button":
+                any_none_values = True
+                    
+        if not any_none_values:
+            conn = get_db_connection()
+            res = conn.execute(f"""
+                        SELECT MAX(objectid)
+                        FROM {table_name}
+                        """)
+            # max objectid+1 is new object id
+            objectid = str(int(res.fetchone()[0] + 1))
+            
+            res = conn.execute(f"""
+                            SELECT MAX(incident_number)
+                            FROM {table_name}
+                            """)
+            # next incident number is max + 1
+            incident_number = str(int(res.fetchone()[0]) + 1)
+        
+            arrest_date = request.form.get("date")
+            gender = request.form.get("gender")
+            race = request.form.get("race")
+            age = request.form.get("age")
+            charge = request.form.get("charge")
+            
+            if request.form.get("most_serious") != None:
+                most_serious = 1
+            else:
+                most_serious = 0
+                
+            if request.form.get("felony") != None:
+                felony = 1
+            else:
+                felony = 0
+                
+            if request.form.get("violent") != None:
+                violent = 1
+            else:
+                violent = 0
+                
+            category = request.form.get("category")
+            
+            # print(res.fetchall())
+            c = conn.cursor()
+            conn.execute(f"INSERT INTO arrests VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+                (objectid, incident_number, arrest_date,
+                gender, race, age, charge, most_serious,
+                felony, violent, category))
+            conn.commit()
+            flash("Successfully inserted into table!", category="info")
+        else:
+            flash("One or more text box values are empty", category="error")
+    return render_template("arrest_form.html", user=current_user)
 
 
 # incident = Incident(
@@ -157,3 +174,16 @@ def form():
 #     violent = dict.get(["violent"]),
 #     category = dict.get(["category"])
 #     )
+
+
+# incident_dict["call type"] = request.form.get("call_type")
+# incident_dict["call type group"] = request.form.get("call_type_group")
+# incident_dict["call time"] = request.form.get("call_time")
+# incident_dict["call type"] = request.form.get("call_type")
+# incident_dict["mental health related"] = request.form.get("mental_health_related")
+# incident_dict["drug related"] = request.form.get("drug_related")
+# incident_dict["domestic violence related"] = request.form.get("dv_related")
+# incident_dict["alcohol related"] = request.form.get("alcohol_related")
+# incident_dict["area"] = request.form.get("area")
+# incident_dict["area name"] = request.form.get("area_name")
+# incident_dict["area name"] = request.form.get("area_name")
