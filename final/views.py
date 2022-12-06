@@ -26,7 +26,46 @@ def get_password():
 @views.route('/incident_form', methods=['GET', 'POST'])
 def incident_form():
     table_name = "incidents"
-    if request.method == 'POST':   
+    modify = False
+    objectid = None
+    incident_number = None
+    
+    if request.method == 'POST':
+        conn = get_db_connection()
+        # User chooses to create new entry
+        if request.form.get("modify") == "on":
+            # user chose to modify a record
+            modify = True
+            # retrieve id
+            objectid = request.form.get("objectid")
+            if objectid:
+                # try to find record from objectid
+                res = conn.execute(f"""SELECT * 
+                                    FROM incidents
+                                    WHERE objectid = {objectid}
+                                    """)
+                
+                # if record exists
+                if res.fetchone():
+                    # grab incident_number
+                    res = conn.execute(f"""SELECT incident_number 
+                                    FROM incidents
+                                    WHERE objectid = {objectid}
+                                    """)
+                    
+                    incident_number = res.fetchone()[0]
+                    
+                    # attempt to change column of record
+                    conn.execute(f"""
+                                    DELETE FROM incidents
+                                    WHERE objectid = {objectid}
+                                    """)
+                else:
+                    flash(f"Record could not be found with objectid = {objectid}", category="error")
+                    print("record not found")
+            else:
+                flash(f"Object ID must be specified for modifying existing entries.", category="error")
+        
         any_none_values = False
         for key, val in request.form.items():
             # unchecked buttons are not keys in dict
@@ -35,20 +74,21 @@ def incident_form():
                 any_none_values = True
                     
         if not any_none_values:
-            conn = get_db_connection()
-            res = conn.execute(f"""
+            # don't overwrite unique fields if modifying
+            if not modify:            
+                res = conn.execute(f"""
                         SELECT MAX(objectid)
                         FROM {table_name}
                         """)
-            # max objectid+1 is new object id
-            objectid = str(int(res.fetchone()[0] + 1))
+                # max objectid+1 is new object id
+                objectid = str(int(res.fetchone()[0] + 1))
             
-            res = conn.execute(f"""
-                            SELECT MAX(incident_number)
-                            FROM {table_name}
-                            """)
-            # next incident number is max + 1
-            incident_number = str(int(res.fetchone()[0]) + 1)
+                res = conn.execute(f"""
+                                SELECT MAX(incident_number)
+                                FROM {table_name}
+                                """)
+                # next incident number is max + 1
+                incident_number = str(int(res.fetchone()[0]) + 1)
         
             call_type = request.form.get("call_type")
             call_type_group = request.form.get("call_type_group")
@@ -75,14 +115,12 @@ def incident_form():
             else:
                 alcohol_related = 0
                 
-            areaname = request.form.get("area_name")
+            areaname = request.form.get("areaname")
             latitude = request.form.get("latitude")
             longitude = request.form.get("longitude")
             district = request.form.get("district")
             priority = request.form.get("priority")
             
-            # print(res.fetchall())
-            c = conn.cursor()
             conn.execute(f"INSERT INTO incidents VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (objectid, incident_number, call_type,
                 call_type_group, call_time, street,
@@ -93,14 +131,68 @@ def incident_form():
             flash("Successfully inserted into table!", category="info")
         else:
             flash("One or more text box values are empty", category="error")
-
+        print("got here")
+                
     return render_template("incident_form.html", user=current_user)
 
 
 @views.route('/arrest_form', methods=['GET', 'POST'])
 def form():
     table_name = "arrests"
-    if request.method == 'POST':   
+    modify = False
+    
+    # Column names
+    objectid = None
+    incident_number = None
+    # arrest_date = None 
+    # gender = None
+    # race = None 
+    # age = None 
+    # charge = None
+    # most_serious = None 
+    # felony = None 
+    # violent = None 
+    # category = None
+    
+    
+    modify = False
+    objectid = None
+    
+    if request.method == 'POST':
+        conn = get_db_connection()
+        # User chooses to create new entry
+        if request.form.get("modify") == "on":
+            # user chose to modify a record
+            modify = True
+            # retrieve id
+            objectid = request.form.get("objectid")
+            if objectid:
+                # try to find record from objectid
+                res = conn.execute(f"""SELECT * 
+                                    FROM arrests
+                                    WHERE objectid = {objectid}
+                                    """)
+                # if record exists
+                if res.fetchone():
+                    # grab incident_number
+                    res = conn.execute(f"""SELECT incident_number 
+                                    FROM incidents
+                                    WHERE objectid = {objectid}
+                                    """)
+                    
+                    incident_number = res.fetchone()[0]
+                    
+                    # attempt to change column of record
+                    conn.execute(f"""
+                                    DELETE FROM arrests
+                                    WHERE objectid = {objectid}
+                                    """)
+                else:
+                    flash(f"Record could not be found with objectid = {objectid}", category="error")
+                    print("record not found")
+            else:
+                flash(f"Object ID must be specified for modifying existing entries.", category="error")
+                
         any_none_values = False
         for key, val in request.form.items():
             # unchecked buttons are not keys in dict
@@ -110,21 +202,21 @@ def form():
                 any_none_values = True
                     
         if not any_none_values:
-            conn = get_db_connection()
-            res = conn.execute(f"""
-                        SELECT MAX(objectid)
-                        FROM {table_name}
-                        """)
-            # max objectid+1 is new object id
-            objectid = str(int(res.fetchone()[0] + 1))
+            # don't overwrite objectid if modifying
+            if not modify:
+                res = conn.execute(f"""
+                    SELECT MAX(objectid) FROM {table_name}
+                    """)
+                # max objectid+1 is new object id
+                objectid = str(int(res.fetchone()[0] + 1))
+                
+                res = conn.execute(f"""
+                                SELECT MAX(incident_number)
+                                FROM {table_name}
+                                """)
+                # next incident number is max + 1
+                incident_number = str(int(res.fetchone()[0]) + 1)
             
-            res = conn.execute(f"""
-                            SELECT MAX(incident_number)
-                            FROM {table_name}
-                            """)
-            # next incident number is max + 1
-            incident_number = str(int(res.fetchone()[0]) + 1)
-        
             arrest_date = request.form.get("date")
             gender = request.form.get("gender")
             race = request.form.get("race")
@@ -151,13 +243,14 @@ def form():
             # print(res.fetchall())
             c = conn.cursor()
             conn.execute(f"INSERT INTO arrests VALUES (?,?,?,?,?,?,?,?,?,?,?)",
-                (objectid, incident_number, arrest_date,
-                gender, race, age, charge, most_serious,
-                felony, violent, category))
+                (objectid, incident_number, arrest_date, gender, race, age,
+                 charge, most_serious, felony, violent, category))
             conn.commit()
+            
             flash("Successfully inserted into table!", category="info")
         else:
-            flash("One or more text box values are empty", category="error")
+            flash("One or more text box values are either empty or invalid", category="error")
+            
     return render_template("arrest_form.html", user=current_user)
 
 

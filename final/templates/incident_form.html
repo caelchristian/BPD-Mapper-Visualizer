@@ -2,90 +2,145 @@
 {% block title %}Home{% endblock %}
 {% block content %}
 <div class="container pt-md-5">
-
     <form method="POST">
-        <div class="container">
-            <div class="row align-items-start">
-                <div class="col">
-                    <h3 class="text-center">Submit Police Incident</h3>
-                    
-                    <label>Call Type: (ex. Noise)</label>
-                    <input type="text" name="call_type"><br>
-
-                    <label for = "call_type_group">Call Type Group (ex. Quality of Life)</label>
-                    <input type="text" name="call_type_group"><br>
-
-                    <label for = "call_time">Call Time: (ex. 11:40:00)</label>
-                    <input type="text" name="call_time"><br>
-                    
-                    <label>Street:</label>
-                    <input type="text" name="street"><br>
-                    
-                    <!-- <label for = "call_origin">Call Origin:</label><br>
-                        911 <input type="radio" name="call_origin" value = "911"><br>
-                        In Person <input type="radio" name="call_origin" value = "in_person"><br>
-                        Officer/Radio <input type="radio" name="call_origin" value = "officer_radio"><br>
-                        Online Report <input type="radio" name="call_origin" value = "online"><br>
-                        Phone <input type="radio" name="call_origin" value = "phone"><br>
-                        Unknown <input type="radio" name="call_origin" value = "Unknown"><br><br> -->
-
-                    <label>Mental Health Related</label>
-                    <input type="checkbox" name="mental_health_related"><br>
-
-                    <label>Drug Related</label>
-                    <input type="checkbox" name="drug_related"><br>
-
-                    <label>Domestic Violence Related</label>
-                    <input type="checkbox" name="dv_related"><br>
-
-                    <label for = "alcohol_related">Alcohol Related </label>
-                    <input type="checkbox" name="alcohol_related"><br>
-
-                    <!-- <label for= "area">Area: </label>
-                    <select name = "area">
-                        <option value = "a">A</option>
-                        <option value = "b">B</option>
-                        <option value = "c">C</option>
-                        <option value = "d">D</option>
-                        <option value = "e">E</option>
-                        <option value = "airport">Airport</option>
-                        <option value = "unknown">Unknown</option>
-                    </select><br> -->
-
-                    <label for = "area_name">Area Name: </label>
-                    <input type="text" name="area_name"><br>
-
-                    <label for = "latitude">Latitude</label>
-                    <input type="text" name="latitude"><br>
-
-                    <label for = "longitude">Longitude</label>
-                    <input type="text" name="longitude"><br>
-
-                    <!-- <label for = "date">Date of incident: </label>
-                    <input type="date" name="date"><br> -->
-
-                    <label for = "district">District</label>
-                        <select name = "district">
-                        <option value = "Central">Central</option>
-                        <option value = "East">East</option>
-                        <option value = "North">North</option>
-                        <option value = "South">South</option>
-                        <option value = "unknown">Unknown</option>
-                    </select><br>
-
-                    <label for = "priority">Priority</label>
-                    <select name = "priority">
-                        <option name="priority" value="1">1<br>
-                        <option name="priority" value="2">2<br>
-                        <option name="priority" value="3">3<br>
-                        <option name="priority" value="NA">N/A<br>
-                    </select><br>
-
-                    <button type="submit" class="btn btn-primary" name="button">Submit</button>
-
-                </div>
-            </div>
+        <div class="form-group">
+            <h3 class="text-center">Modify Incident's Table</h3>
+            <label for="modify">Modify existing entry?</label>
+            <input class="form-check-label" type="checkbox" name="modify">
         </div>
+        <div class="form-check">
+            <label for="objectid">Object ID of the record (only enter if modifying):</label>
+            <input class="form-control" type="number" name="objectid">
+            <p>Note: The objectid is a primary key, not null, and unique.
+                Changing it to a value that already exists in the table will abort.</p>
+
+        </div>
+        <div class="form-group">
+            <label for="call_type">Call Type: (ex. Noise)</label>
+            <input class="form-control" type="text" name="call_type">
+        </div>
+        <div class="form-group">
+            <label for="call_type_group">Call Type Group (ex. Quality of Life)</label>
+            <input class="form-control" type="text" name="call_type_group">
+        </div>
+        <div class="form-group">
+            <label for="call_time">Call Time: (ex. 11:40:00)</label>
+            <input class="form-control" type="text" name="call_time">
+        </div>
+        <div class="form-group">
+            <label>Street:</label>
+            <input class="form-control" type="text" name="street">
+        </div>
+
+            <!-- <label for = "call_origin">Call Origin:</label>
+                        911 <input type="radio" name="call_origin" value = "911">
+                        In Person <input type="radio" name="call_origin" value = "in_person">
+                        Officer/Radio <input type="radio" name="call_origin" value = "officer_radio">
+                        Online Report <input type="radio" name="call_origin" value = "online">
+                        Phone <input type="radio" name="call_origin" value = "phone">
+                        Unknown <input type="radio" name="call_origin" value = "Unknown"> -->
+        
+        <div class="form-group">
+            <label for="areaname">Area Name: </label>
+            <input class="form-control" type="text" name="areaname">
+        </div>
+
+        <div class="form-group">
+            <label for="latitude">Latitude</label>
+            <input class="form-control" type="text" name="latitude">
+        </div>
+
+        <div class="form-group">
+            <label for="longitude">Longitude</label>
+            <input class="form-control" type="text" name="longitude">
+        </div>
+        <!-- <label for = "date">Date of incident: </label>
+                <input type="date" name="date"> -->
+        <div class="form-group">
+            <label for="district">District</label>
+            <select name="district">
+                <option value="Central">Central</option>
+                <option value="East">East</option>
+                <option value="North">North</option>
+                <option value="South">South</option>
+                <option value="unknown">Unknown</option>
+            </select>
+        </div>
+        <div class="form-group">
+        <label for="priority">Priority</label>
+        <select name="priority">
+            <option name="priority" value="1">1
+            <option name="priority" value="2">2
+            <option name="priority" value="3">3
+            <option name="priority" value="NA">N/A
+        </select>
+        </div>
+
+        <div class="form-check">
+            <label>Mental Health Related</label>
+            <input class="form-check-label" type="checkbox" name="mental_health_related">
+        </div>
+        <div class="form-check">
+            <label>Drug Related</label>
+            <input class="form-check-label" type="checkbox" name="drug_related">
+        </div>
+
+        <div class="form-check">
+            <label>Domestic Violence Related</label>
+            <input class="form-check-label" type="checkbox" name="dv_related">
+        </div>
+        <div class="form-check">
+            <label for="alcohol_related">Alcohol Related </label>
+            <input class="form-check-label" type="checkbox" name="alcohol_related">
+        </div>
+
+        <button type="submit" class="btn btn-primary" name="button">Submit</button>
     </form>
 </div>
+
 {% endblock %}
+
+
+
+<!-- DELETE LATER-->
+<!-- <div class="col">
+                        <label for = "objectid">Object ID of the record:</label>
+                        <input type="number" name="objectid">
+                        <p>Note: The objectid is a primary key, not null, and unique. 
+                            As of now you cannot modify objectid for database integrity.</p>
+                        
+                        <label>Column to modify:</label>
+                        <select name = "column">
+                            <option value="incident_number">incident_number</option>
+                            <option value = "call_type">call_type</option>
+                            <option value="call_type_group">call_type_group</option>
+                            <option value = "call_time">call_time</option>
+                            <option value="street">street</option>
+                            <option value = "mental_health">mental_health</option>
+                            <option value="drug_related">drug_related</option>
+                            <option value="dv_related">dv_related</option>
+                            <option value="alcohol_related">alcohol_related</option>
+                            <option value="areaname">areaname</option>
+                            <option value="latitude">latitude</option>
+                            <option value="longitude">longitude</option>
+                            <option value="district">district</option>
+                            <option value="priority">priority</option>
+                        </select>
+
+                        <label for = "new_value">New Value:</label>
+                        <input type="text" name="new_value">
+
+                        <button type="submit" class="btn btn-primary" name="modify_button">Submit</button>
+                    </div> -->
+
+
+<!-- <label for= "area">Area: </label>
+                        <select name = "area">
+                            <option value = "a">A</option>
+                            <option value = "b">B</option>
+                            <option value = "c">C</option>
+                            <option value = "d">D</option>
+                            <option value = "e">E</option>
+                            <option value = "airport">Airport</option>
+                            <option value = "unknown">Unknown</option>
+                        </select> -->

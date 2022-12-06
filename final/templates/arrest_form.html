@@ -2,71 +2,112 @@
 {% block title %}Home{% endblock %}
 {% block content %}
 <div class="container pt-md-5">
-
     <form method="POST">
-        <div class="container">
-            <div class="row align-items-start">
-                <div class="col">
-                    <h3 class="text-center">Submit Arrest</h3>
-                    
-                    <label>
-                        Arrest date: <input type="date" name="date">
-                    </label><br>
-
-                    <label for="gender">Gender</label><br>
-                    <select name = "gender">
-                        <option value = "female">Female</option><br>
-                        <option value="male">Male</option><br>
-                        <option value = "trans">Transgender</option><br>
-                        <option value="unknown">Unknown</option><br>
-                    </select><br>
-
-                    <label for = "category">Category</label>
-                    <select name = "category">
-                        <option value = "Assault">Assault</option>
-                        <option value = "DV">Domestic Violence</option>
-                        <option value = "Disorder">Disorder</option>
-                        <option value = "Driving">Driving</option>
-                        <option value = "Drugs">Drugs</option>
-                        <option value = "Financial">Financial</option>
-                        <option value = "Other">Other</option>
-                        <option value = "Property">Property</option>
-                        <option value = "Sexual Offense">Sexual Offense</option>
-                        <option value = "Trespass">Trespass</option>
-                        <option value = "Warrant or Court Order">Warrant or Court Order</option>
-                        <option value = "Weapons">Weapons</option>
-                    </select><br>
-
-                    <label for = "race">Race</label>
-                    <select name = "race">
-                        <option value = "American Indian or Alaska Native">American Indian or Alaska Native</option>
-                        <option value = "Asian">Asian</option>
-                        <option value = "Black or African American">Black or African American</option>
-                        <option value = "Native Hawaiian or Other Pacific Islander">Native Hawaiian or Other Pacific Islander</option>
-                        <option value = "Other">Other</option>
-                        <option value = "Unknown">Unknown</option>
-                        <option value = "White">White</option>
-                    </select><br>
-
-                    <label for = "age">Age</label>
-                    <input type="number" name="age"><br>
-
-                    <label for="charge">Charge</label>
-                    <input type="text" name="charge"><br>
-
-                    <label for = "most_serious">Most serious </label>
-                    <input type="checkbox" name="most_serious"><br>
-
-                    <label for = "felony">Felony </label>
-                    <input type="checkbox" name="felony"><br>
-
-                    <label for = "violent">Violent </label>
-                    <input type="checkbox" name="violent"><br>
-
-                    <button type="submit" class="btn btn-primary" name="button">Submit</button>
-                </div>
-            </div>
+        <div class="form-group">
+            <h3 class="text-center">Modify Arrest's Table</h3>
+            <label for="modify">Modify existing entry?</label>
+            <input class="form-check-label" type="checkbox" name="modify">
         </div>
+        <div class="form-check">
+            <label for="objectid">Object ID of the record (only enter if modifying):</label>
+            <input class="form-control" type="number" name="objectid"><br>
+            <p>Note: The objectid is a primary key, not null, and unique. 
+                Changing it to a value that already exists in the table will abort.</p>
+        </div>
+        <div class="form-group">
+            <label>Arrest date: </label>
+                <input class="form-control" type="date" name="date">
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender</label><br>
+            <select name = "gender">
+                <option value = "female">Female</option><br>
+                <option value="male">Male</option><br>
+                <option value = "trans">Transgender</option><br>
+                <option value="unknown">Unknown</option><br>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for = "category">Category</label>
+            <select name = "category">
+                <option value = "Assault">Assault</option>
+                <option value = "DV">Domestic Violence</option>
+                <option value = "Disorder">Disorder</option>
+                <option value = "Driving">Driving</option>
+                <option value = "Drugs">Drugs</option>
+                <option value = "Financial">Financial</option>
+                <option value = "Other">Other</option>
+                <option value = "Property">Property</option>
+                <option value = "Sexual Offense">Sexual Offense</option>
+                <option value = "Trespass">Trespass</option>
+                <option value = "Warrant or Court Order">Warrant or Court Order</option>
+                <option value = "Weapons">Weapons</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for = "race">Race</label>
+            <select name = "race">
+                <option value = "American Indian or Alaska Native">American Indian or Alaska Native</option>
+                <option value = "Asian">Asian</option>
+                <option value = "Black or African American">Black or African American</option>
+                <option value = "Native Hawaiian or Other Pacific Islander">Native Hawaiian or Other Pacific Islander</option>
+                <option value = "Other">Other</option>
+                <option value = "Unknown">Unknown</option>
+                <option value = "White">White</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for = "age">Age</label>
+            <input class="form-check-label" type="number" name="age"><br>
+        </div>
+        <div class="form-group">
+            <label for="charge">Charge</label>
+            <input class="form-check-label" type="text" name="charge"><br>
+        </div>
+        <div class="form-check">
+            <label for = "most_serious">Most serious </label>
+            <input class="form-check-label" type="checkbox" name="most_serious"><br>
+        </div>
+        <div class="form-check">
+            <label for = "felony">Felony </label>
+            <input class="form-check-label" type="checkbox" name="felony"><br>
+        </div>
+        <div class="form-check">
+            <label for = "violent">Violent </label>
+            <input class="form-check-label" type="checkbox" name="violent"><br>
+        </div>
+        
+        <button type="submit" class="btn btn-primary" name="button">Submit</button>
+            <!-- <div class="col">
+                <h3 class="text-center">Modify Arrest Entry</h3>
+
+                <label for = "objectid">Object ID of the record:</label>
+                <input type="number" name="objectid"><br>
+                <p>Note: The objectid is a primary key, not null, and unique. 
+                    Changing it to a value that already exists in the table will abort.</p>
+                
+                <label>Column to modify:</label>
+                <select name = "column">
+                    <option value = "objectid">objectid</option>
+                    <option value="incident_number">incident_number</option>
+                    <option value = "arrest_date">arrest_date</option>
+                    <option value="gender">gender</option>
+                    <option value = "race">race</option>
+                    <option value="age">age</option>
+                    <option value = "charge">charge</option>
+                    <option value="most_serious">most_serious</option>
+                    <option value="felony">felony</option>
+                    <option value="violent">violent</option>
+                    <option value="category">category</option><br>
+                </select><br>
+
+                <label for = "new_value">New Value:</label>
+                <input type="text" name="new_value"><br>
+
+                <button type="submit" class="btn btn-primary" name="button">Submit</button>
+            </div> -->
     </form>
 </div>
 {% endblock %}
