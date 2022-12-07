@@ -68,9 +68,10 @@ def incident_form():
         
         any_none_values = False
         for key, val in request.form.items():
+            print(key,":",val)
             # unchecked buttons are not keys in dict
             # exclude submit button
-            if val == "" and key != "button":
+            if val == "" and key not in ["button","objectid"]:
                 any_none_values = True
                     
         if not any_none_values:
@@ -137,7 +138,7 @@ def incident_form():
 
 
 @views.route('/arrest_form', methods=['GET', 'POST'])
-def form():
+def arrest_form():
     table_name = "arrests"
     modify = False
     
@@ -198,7 +199,7 @@ def form():
             # unchecked buttons are not keys in dict
             # exclude submit button
             print(key,":",val)
-            if val == "" and key != "button":
+            if val == "" and key not in ["button","objectid"]:
                 any_none_values = True
                     
         if not any_none_values:
@@ -253,30 +254,121 @@ def form():
             
     return render_template("arrest_form.html", user=current_user)
 
+@views.route('/delete', methods=['GET', 'POST'])
+def delete_record():
+    if request.method == "POST":
+        objectid = request.form.get("objectid")
+        if objectid:
+            table = request.form.get("table")
+            confirm = request.form.get("confirm")
+            if confirm:
+                # valid query
+                conn = get_db_connection()
+                res = conn.execute(f"""
+                                    DELETE FROM {table}
+                                    WHERE objectid = {objectid}
+                                    """)
+                conn.commit()
+                flash("Successfully deleted record.", category="info")
+            else:
+                flash("Please confirm by checking the box.")
+        else:
+            flash("Enter the Object ID of the record you would like to delete.", category="error")
+            
+    return render_template("delete.html", user=current_user)
 
-# incident = Incident(
-#     objectid = objectid,
-#     incident_number = incident_number,
-#     arrest_date = dict.get("arrest_date"),
-#     gender = dict.get("gender"),
-#     race = dict.get("race"),
-#     age = dict.get("age"),
-#     charge = dict.get("charge"),
-#     most_serious = dict.get("most_serious"),
-#     felony = dict.get("felony"),
-#     violent = dict.get(["violent"]),
-#     category = dict.get(["category"])
-#     )
+@views.route("/stat_query", methods=['GET','POST'])
+def stat_query():
+    if request.method == "POST":
+        import statistics
+        result = None
+        column_list = []
+        
+        col = request.form.get("column")
+        op = request.form.get("operation")
+        conn = get_db_connection()
+        
+        # # if query involves objectid or incident_number
+        if col in ["incident_number", "objectid"]:
+            # specify table to avoid ambigious column name
+            col = "i." + col
+            
+        # if sql can do operation, just execute query dynamically
+        if op in ["min", "max", "sum"]:
+            result = conn.execute(f"""SELECT {op}({col})
+                         FROM (incidents i JOIN arrests a
+                               ON a.incident_number = i.incident_number);
+                         """)
+        # otherwise get the column and insert into list
+        else:
+            print(f"""SELECT {col}
+                         FROM (incidents i JOIN arrests a
+                               ON a.incident_number = i.incident_number);
+                         """)
+            res = conn.execute(f"""SELECT {col}
+                         FROM (incidents i JOIN arrests a
+                               ON a.incident_number = i.incident_number);
+                         """)
+            
+            for row in res.fetchall():
+                column_list.append(row[0])
+                print(row[0])
+                
+            if op == "mean":
+                result = statistics.mean(column_list)
+            elif op == "median":
+                result = statistics.median(column_list)
+            elif op == "std mean":
+                result = statistics.stdev(column_list)
+            elif op == "count":
+                result = len(column_list)
+                
+    
+        return render_template("stat_query.html", result=str(result), user=current_user)
+    else:
+        return render_template("stat_query.html", user=current_user)
 
+@views.route("/cond_query", methods=['GET','POST'])
+def cond_query():
+    if request.method == "POST":
+        import pandas as pd
+        result = None
+        df = pd.DataFrame()
+        query = ""
+        table = None
+        conn = get_db_connection()
+    
+        # specify table to avoid ambigious column name
+        col = "" + request.form.get("column")    
+        cond = request.form.get("condition")
+        inpt = request.form.get("input")
+        order = request.form.get("order")
+        
+        # avoid ambiguious columns
+        if col in ["objectid","incident_number"]:
+            col = "i." + col
 
-# incident_dict["call type"] = request.form.get("call_type")
-# incident_dict["call type group"] = request.form.get("call_type_group")
-# incident_dict["call time"] = request.form.get("call_time")
-# incident_dict["call type"] = request.form.get("call_type")
-# incident_dict["mental health related"] = request.form.get("mental_health_related")
-# incident_dict["drug related"] = request.form.get("drug_related")
-# incident_dict["domestic violence related"] = request.form.get("dv_related")
-# incident_dict["alcohol related"] = request.form.get("alcohol_related")
-# incident_dict["area"] = request.form.get("area")
-# incident_dict["area name"] = request.form.get("area_name")
-# incident_dict["area name"] = request.form.get("area_name")
+        if order != "*":
+            query = f"""SELECT {col}
+                        FROM (incidents i JOIN arrests a
+                        ON a.incident_number = i.incident_number)
+                        WHERE {cond} = {inpt}
+                        ORDER BY {order};
+                        """
+        else:
+            query = f"""SELECT {col}
+                        FROM (incidents i JOIN arrests a
+                        ON a.incident_number = i.incident_number)
+                        WHERE {cond} = {inpt};
+                        """
+        try:
+            # too easy bruh
+            df = pd.read_sql_query(query,conn)
+            table = df.to_html(classes="center table table-sm table-dark")
+        except:
+            flash("There was an error executing SQL. Please check your inputs and try again.", category="error")
+
+        return render_template("cond_query.html", table=table, user=current_user)
+
+    else:
+        return render_template("cond_query.html", user=current_user)

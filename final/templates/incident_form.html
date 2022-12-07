@@ -4,7 +4,7 @@
 <div class="container pt-md-5">
     <form method="POST">
         <div class="form-group">
-            <h3 class="text-center">Modify Incident's Table</h3>
+            <h3 class="text-center">Insert/Modify an "Incident"</h3>
             <label for="modify">Modify existing entry?</label>
             <input class="form-check-label" type="checkbox" name="modify">
         </div>
@@ -99,48 +99,3 @@
 </div>
 
 {% endblock %}
-
-
-
-<!-- DELETE LATER-->
-<!-- <div class="col">
-                        <label for = "objectid">Object ID of the record:</label>
-                        <input type="number" name="objectid">
-                        <p>Note: The objectid is a primary key, not null, and unique. 
-                            As of now you cannot modify objectid for database integrity.</p>
-                        
-                        <label>Column to modify:</label>
-                        <select name = "column">
-                            <option value="incident_number">incident_number</option>
-                            <option value = "call_type">call_type</option>
-                            <option value="call_type_group">call_type_group</option>
-                            <option value = "call_time">call_time</option>
-                            <option value="street">street</option>
-                            <option value = "mental_health">mental_health</option>
-                            <option value="drug_related">drug_related</option>
-                            <option value="dv_related">dv_related</option>
-                            <option value="alcohol_related">alcohol_related</option>
-                            <option value="areaname">areaname</option>
-                            <option value="latitude">latitude</option>
-                            <option value="longitude">longitude</option>
-                            <option value="district">district</option>
-                            <option value="priority">priority</option>
-                        </select>
-
-                        <label for = "new_value">New Value:</label>
-                        <input type="text" name="new_value">
-
-                        <button type="submit" class="btn btn-primary" name="modify_button">Submit</button>
-                    </div> -->
-
-
-<!-- <label for= "area">Area: </label>
-                        <select name = "area">
-                            <option value = "a">A</option>
-                            <option value = "b">B</option>
-                            <option value = "c">C</option>
-                            <option value = "d">D</option>
-                            <option value = "e">E</option>
-                            <option value = "airport">Airport</option>
-                            <option value = "unknown">Unknown</option>
-                        </select> -->

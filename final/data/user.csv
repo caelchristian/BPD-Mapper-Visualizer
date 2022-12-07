@@ -1,1 +1,5 @@
 id,email,password,salt,access,attempts
+1,James.Eddy@gmail.com,sha1$YF6cGli7f4gcnfPo$7a262c90584722a32fc6d6dca081052d380e598c,36GzUO6XRJASshr55r0vzR4CBb6rwGS7/14mdgy7UTQ=,pleb,3
+2,bobbyjoey@gmail.com,sha1$QMpirVLnfcFOWRX8$c0059cf0ae7591d92914a312580c5b6d12e6b77b,pGq+sVOC66F5/Q3ja3u21pXWCEpYwA6TvCYvuEz1vRw=,pleb,3
+3,cchrist7@uvm.edu,sha1$ssAyPMOQIKnfyybC$1c9d736e297a05f7c143f1782e6fb5419a32e237,OsrzgKf6fETurwsEDv+na5nXAT7tYrkhE5+haHm8ckU=,pleb,3
+4,koochjuice@gmail.com,sha1$SWYYZGsJoMPTxLru$2a1f1ec604aca6b0abebd82eec101e9c3a04982c,GKoo1nrIkbm77l2TMI/OtkxR209NXOmNU8oMjMQC068=,pleb,3

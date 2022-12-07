@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="container pt-md-5">
+    <form method="POST">
+      <h3>Create a Conditional Query</h3>
+        <div class="form-group">
+          <label for = "column">"SELECT (column) FROM TABLE"</label>
+          <select class="form-control" name = "column">
+            <option value = "*"> * (All)</option>
+            <option value = "objectid">objectid</option>
+            <option value = "incident_number">incident_number</option>
+            <option value = "call_type">call_type</option>
+            <option value = "call_type_group">call_type</option>
+            <option value = "call_time">call_type</option>
+            <option value = "street">street</option>
+            <option value = "areaname">areaname</option>
+            <option value = "gender">gender</option>
+            <option value = "race">race</option>
+            <option value = "charge">charge</option>
+            <option value = "arrest_date">arrest_form</option>
+            <option value = "areaname">category</option>
+            <option value = "district">district</option>
+            <option value = "age">age</option>
+            <option value = "most_serious">most_serious</option>
+            <option value = "felony">felony</option>
+            <option value = "violent">violent</option>
+            <option value = "mental_health">mental_health</option>
+            <option value = "drug_related">drug_related</option>
+            <option value = "dv_related">dv_related</option>
+            <option value = "alcohol_related">alcohol_related</option>
+            <option value = "latitude">latitude</option>
+            <option value = "longitude">longitude</option>
+            <option value = "priority">priority</option>
+          </select>
+      </div>
+      <div class="form-group">
+        <label for = "condition">"WHERE (column = ...)"</label>
+        <select class="form-control" name = "condition">
+          <option value = "objectid">objectid</option>
+          <option value = "incident_number">incident_number</option>
+          <option value = "call_type">call_type</option>
+          <option value = "call_type_group">call_type</option>
+          <option value = "call_time">call_type</option>
+          <option value = "street">street</option>
+          <option value = "areaname">areaname</option>
+          <option value = "gender">gender</option>
+          <option value = "race">race</option>
+          <option value = "charge">charge</option>
+          <option value = "arrest_date">arrest_form</option>
+          <option value = "areaname">category</option>
+          <option value = "district">district</option>
+          <option value = "age">age</option>
+          <option value = "most_serious">most_serious</option>
+          <option value = "felony">felony</option>
+          <option value = "violent">violent</option>
+          <option value = "mental_health">mental_health</option>
+          <option value = "drug_related">drug_related</option>
+          <option value = "dv_related">dv_related</option>
+          <option value = "alcohol_related">alcohol_related</option>
+          <option value = "latitude">latitude</option>
+          <option value = "longitude">longitude</option>
+          <option value = "priority">priority</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="text" name="input">
+    </div>
+      <div class="form-group">
+        <label for = "group">"ORDER BY (column)"</label>
+        <select class="form-control" name = "order">
+          <option value = "*">None</option>
+          <option value = "objectid">objectid</option>
+          <option value = "incident_number">incident_number</option>
+          <option value = "call_type">call_type</option>
+          <option value = "call_type_group">call_type</option>
+          <option value = "call_time">call_type</option>
+          <option value = "street">street</option>
+          <option value = "areaname">areaname</option>
+          <option value = "gender">gender</option>
+          <option value = "race">race</option>
+          <option value = "charge">charge</option>
+          <option value = "arrest_date">arrest_form</option>
+          <option value = "areaname">category</option>
+          <option value = "district">district</option>
+          <option value = "age">age</option>
+          <option value = "most_serious">most_serious</option>
+          <option value = "felony">felony</option>
+          <option value = "violent">violent</option>
+          <option value = "mental_health">mental_health</option>
+          <option value = "drug_related">drug_related</option>
+          <option value = "dv_related">dv_related</option>
+          <option value = "alcohol_related">alcohol_related</option>
+          <option value = "latitude">latitude</option>
+          <option value = "longitude">longitude</option>
+          <option value = "priority">priority</option>
+        </select>
+        <br>
+        <button type="submit" class="btn btn-primary" name="button">Execute Query</button>
+    </form>
+
+    <br>
+    <!-- {% for row in result %}
+      <tr>
+    {% for d in row %}
+        <td>{{ d }}</td>
+    {% endfor %}
+      </tr>
+    {% endfor %} -->
+
+</div>
+
+{% endblock %}
+
+{% block table_query %}
+  {% if table %}
+    {{ table | safe }}
+  {% endif %}
+{% endblock %}
+
+{% block graph %}
+  {% if plot %}
+    {{ plot }}
+  {% endif %}
+{% endblock %}
+
+
+      <!-- <h3 class="text-center">Table to query on:</h3>
+        <label>Table:</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="table" value="incidents" checked>
+          <label class="form-check-label" for="flexRadioDefault2" value="incidents">
+            Incidents
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="table" value="arrests">
+          <label class="form-check-label" for="flexRadioDefault1" value="arrests">
+            Arrests
+          </label>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="objectid">Object ID of the record </label>
+          <input class="form-control" type="number" name="objectid">
+        </div> -->
