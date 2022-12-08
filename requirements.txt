@@ -3,3 +3,6 @@ Flask-SQLAlchemy
 flask-login
 bcrypt
 werkzeug
+sqlite3
+matplotlib
+pandas
