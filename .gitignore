@@ -1,0 +1,4 @@
+.DS_Store
+final/__pycache__
+final/.DS_Store
+final/instance.credentials.db
