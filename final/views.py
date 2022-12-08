@@ -1,12 +1,11 @@
 from flask import Blueprint, render_template, request, flash, jsonify
 from flask_login import login_required, current_user
-import sqlite3
-from . import db, get_db_connection
+from . import get_db_connection
 from sqlalchemy import insert, create_engine
-from sqlalchemy.orm import Session
-import json
+# from sqlalchemy.orm import Session
 from .auth import get_strong_password
-from .models import User, Arrests, Incidents
+# from .models import User, Arrests, Incidents
+import os
 
 views = Blueprint('home', __name__)
 engine = create_engine("sqlite:///data.db")
@@ -145,19 +144,6 @@ def arrest_form():
     # Column names
     objectid = None
     incident_number = None
-    # arrest_date = None 
-    # gender = None
-    # race = None 
-    # age = None 
-    # charge = None
-    # most_serious = None 
-    # felony = None 
-    # violent = None 
-    # category = None
-    
-    
-    modify = False
-    objectid = None
     
     if request.method == 'POST':
         conn = get_db_connection()
@@ -295,10 +281,12 @@ def stat_query():
             
         # if sql can do operation, just execute query dynamically
         if op in ["min", "max", "sum"]:
-            result = conn.execute(f"""SELECT {op}({col})
+            res = conn.execute(f"""SELECT {op}({col})
                          FROM (incidents i JOIN arrests a
                                ON a.incident_number = i.incident_number);
                          """)
+            
+            result = res.fetchone()[0]
         # otherwise get the column and insert into list
         else:
             print(f"""SELECT {col}
@@ -368,7 +356,7 @@ def cond_query():
         except:
             flash("There was an error executing SQL. Please check your inputs and try again.", category="error")
 
-        return render_template("cond_query.html", table=table, user=current_user)
+        return render_template("cond_query.html", df=df, table=table, user=current_user)
 
     else:
         return render_template("cond_query.html", user=current_user)

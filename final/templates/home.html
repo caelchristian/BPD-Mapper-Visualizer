@@ -3,11 +3,30 @@
 {% block content %}
     <div class="container pt-md-5">
         <h1 class="mt5">CS195 Final Project</h1>
-        {% if user.is_authenticated %}
+        {% if not user.is_authenticated %}
             <p class="lead">
-                Welcome, {{ (user.id) }}
+                Welcome, please create an account to modify/view records. }}
             </p>
         {% endif %}
+
+        <p>
+            For my final project I have decided to create a Burlington Police
+            statistical calculator and web mapper using Flask. The site is 
+            styled with bootstrap and utilizes Flask's SQL toolkit and ORM 
+            (object-relational mapper), SQLAlchemy to store, modify and
+            fetch database records. Invalid queries and user input have 
+            exception handling.
+        </p>
+        <p>
+            You can insert Records in all tables by:
+            - creating an account
+            - submitting an arrest
+            - submitting an incident
+            You can also modify existing arrest/incident records as well as delete them. As of now you cannot delete an account using the web app.
+            You can also query with a statistical operation as well as create a conditional query with a specific column. A conditional query will return record results by default or column results. All of these queries involve a join between incidents and arrests with incident_id.
+            My initial goal of this project was to allow the user to create plots with incident coordinates, but I had created ambitious goals for myself. I plan on adding to this project in the future. Static plots are displayed on the home page of the app.
+        </p>
+
     </div>
     <div class="container">
 
