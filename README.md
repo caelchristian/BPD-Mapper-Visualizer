@@ -22,19 +22,18 @@ You can also modify existing arrest/incident records as well as delete them. As 
 
 You can also query with a statistical operation as well as create a conditional query with a specific column. A conditional query will return record results by default or column results. All of these queries involve a join between incidents and arrests with incident_id.
 
-My initial goal of this project was to allow the user to create plots with incident coordinates, but I had created ambitious goals for myself. I plan on adding to this project in the future. Static plots are displayed on the home page of the app.
+My initial goal of this project was to allow the user to create plots with incident coordinates, but I had created ambitious goals for myself. I plan on adding to this project in the future. Static plots are displayed if you uncomment show_plots(). 
 
-
+The SQL queries used to clean the data
 ```sql
 -- Deleting rows that don't share an incident_number
+-- Also deletes duplicate entries
 DELETE FROM Incidents WHERE incident_number IN
 (SELECT Incidents.incident_number 
 	FROM Incidents
 	LEFT JOIN Arrests 
 	ON Incidents.incident_number=Arrests.incident_number 
 	WHERE Arrests.incident_number IS NULL);
-
--- Deleting duplicate entries
 DELETE FROM Arrests WHERE incident_number IN
 (SELECT Arrests.incident_number 
 	FROM Arrests
